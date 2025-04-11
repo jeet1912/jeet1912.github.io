@@ -153,6 +153,14 @@ projects:
 
           [[Code Repository]](https://github.com/jeet1912/mhsAppForCS631)
 
+      - title: Presentation on LIME
+        link: "https://docs.google.com/presentation/d/1eQfSmDas-72Xghj5IUkjnDy16ubLlI3jkmByYEaNCp0/edit#slide=id.p"
+        tagline: |
+          Curated a presentation on the paper "Why Should I trust You" Explaining the Predictions of Any Classifier by Marco T.R, 
+          Sameer Singh and Carlos Guestrin by designing an experiment using a story generated using Grok.
+
+          [[Presentation]](https://docs.google.com/presentation/d/1eQfSmDas-72Xghj5IUkjnDy16ubLlI3jkmByYEaNCp0/edit#slide=id.p)
+          
                    
       - title: DataCamp Data Scientist
         link: "https://github.com/jeet1912/Datacamp"
