@@ -144,6 +144,22 @@ projects:
           - Summarized the findings by comparing across mean silhouette scores.
            
            [[Code Repository]](https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/CS634FTPbyAS.ipynb)
+
+      
+      - title: Morrish Health Services
+        link: "https://github.com/jeet1912/mhsAppForCS631"
+        tagline: |
+          Implemented a healthcare management system using Django and MySQL. 
+          
+          [[Code Repository]](https://github.com/jeet1912/mhsAppForCS631) 
+        
+          
+ 
+ 
+     
+   
+          
+
  
  
       
