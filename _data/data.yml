@@ -131,7 +131,7 @@ projects:
       - title: Open Source Contribution
         link: "https://github.com/toystars/react-native-multiple-select/pull/171"
         tagline: |
-          Introduced a boolean argument to display #selected_items in <i>react-native-multiple-select</i> by <i>toystars</i> [<b>450+</b> stars, <b>250k+</b> downloads].
+          Introduced a boolean argument to display #selected_items in <i>react-native-multiple-select</i> by <i>toystars</i> [<b>550+</b> stars, <b>500k+</b> downloads].
           
           [[Pull Request]](https://github.com/toystars/react-native-multiple-select/pull/171)
           
