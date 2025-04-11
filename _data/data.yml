@@ -163,6 +163,7 @@ projects:
 
           [[Code Repository]](https://github.com/jeet1912/ms/blob/main/ds680/assignments/DS680_HW3.ipynb)
 
+
       -title: Credit Card Fraud Detection
        link: "https://github.com/jeet1912/ms/blob/main/ds675/Project/fraud.ipynb"
        tagline: |
@@ -176,7 +177,7 @@ projects:
         tagline: |
           Created a short research report on the state of the art compound artificial systems such as Haystack while also highlighing systems that can help monitor carbon emissions. 
 
-          [[Code Repository]](https://github.com/jeet1912/ms/blob/main/ds677/research/abhijeet_sahdev_finalTermResearch.pdf)
+          [[Report]](https://github.com/jeet1912/ms/blob/main/ds677/research/abhijeet_sahdev_finalTermResearch.pdf)
 
         
       - title: Presentation on LIME
