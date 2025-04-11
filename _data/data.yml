@@ -131,7 +131,6 @@ projects:
         link: "https://github.com/toystars/react-native-multiple-select/pull/171"
         tagline: |
           Introduced a boolean argument to display #selected_items in <i>react-native-multiple-select</i> by <i>toystars</i> [<b>450+</b> stars, <b>250k+</b> downloads].
-          
           [[Pull Request]](https://github.com/toystars/react-native-multiple-select/pull/171)
 
       - title: Morrish Health Services 
@@ -145,14 +144,12 @@ projects:
         link: "https://github.com/jeet1912/Datacamp"
         tagline: |
           Notebooks and other exercises implemented in Python for Data Scientist Career track (6 projects, 23 courses and 3 Assessments).
-          
           [[Code Repository]](https://github.com/jeet1912/Datacamp)
           
       - title: Competitive Programming
         link: "https://github.com/jeet1912/leetcode"
         tagline: |
-          Leetcode's Competitive Programming Crash Course implemented in Python.
-          
+          Leetcode's Competitive Programming Course implemented in Python.
           [[Code Repository]](https://github.com/jeet1912/leetcode)
       
       
@@ -160,7 +157,6 @@ projects:
         link: "https://github.com/jeet1912/Verzeo-Machine-Learning-Internship"
         tagline: |
           Performed data wrangling and exploratory data analyis on four projects with justifiable results as depicted in the reports and the git repo.
-          
           [[Code Repository]](https://github.com/jeet1912/Verzeo-Machine-Learning-Internship)
           
       
@@ -168,7 +164,6 @@ projects:
         link: "https://drive.google.com/file/d/1EipCdSwbyxxWABQslkiSeq22mOaJLvv2/view?usp=share_link"
         tagline: |
           A feasibility study on a hybrid application for Waabec that provides general, business, and sector specific language training to companies and organisations all over Spain in a multitude of languages.
-          
           [[Presentation]](https://drive.google.com/file/d/1EipCdSwbyxxWABQslkiSeq22mOaJLvv2/view?usp=share_link)
           
        
@@ -176,7 +171,6 @@ projects:
         link: "https://github.com/jeet1912/Covid-19-Dashboard-using-REST-API"
         tagline: |
           Implemented as a part of Andrea Bizzoto's Flutter REST API crash course. The dashboard displays global Covid-19 stats using REST protocol to fetch data from a Firebase App, with offline functionality executed using shared preferences and error handling services.
-          
           [[Code Repository]](https://github.com/jeet1912/Covid-19-Dashboard-using-REST-API)
           
                 
@@ -186,7 +180,6 @@ projects:
           As a part of 
             - Applied Statistics and Time Series Analysis Course, implemented linear trend and moving averages for carbon dioxide emissions and crime data using Python, analysing the effect of change of span of moving average in the latter.
             - Design of Experiments course, implemented one way anova test using Python.
-          
           [[Code Repository]](https://github.com/jeet1912/CM)  
           
                 
@@ -194,7 +187,6 @@ projects:
         link: "https://docs.google.com/document/d/1da61t8eEzwXGUEYhDfEcee075xHPArmsRReNTpp1IME/edit?usp=sharing"
         tagline: |
           As a part of the MATLAB for Engineers course, built an application that computes velocity in x and y directions, displacement in x-direction after time t and the angle of projection of a particle following projectile trajectory motion.
-          
           [[Drive Link]](https://docs.google.com/document/d/1da61t8eEzwXGUEYhDfEcee075xHPArmsRReNTpp1IME/edit?usp=sharing)
   
     
