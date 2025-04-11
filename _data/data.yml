@@ -145,6 +145,14 @@ projects:
           
           [[Code Repository]](https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/CS634FTPbyAS.ipynb)
 
+      - title: Analysing OxCGRT Dataset
+        link: "https://docs.google.com/presentation/d/1yXDd3kXt9yCN37PjIVS4lxPcyhPHw4ys/edit#slide=id.p5"
+        tagline: |
+          - Carried out data engineering, exploratory data analysis and feature engineering adopting appropriate imputating strategies.
+          - Created Linear models for mortality rate against lagged effects of various government policies implemented during the pandemic.
+          - Effectiveness of these policies was defined as a reduction in mortatlity rate and modeled using Decision Tree Classifier.
+
+         [[Code Repository]](https://github.com/jeet1912/aoxcgrt) [[Report]](https://github.com/jeet1912/ms/blob/main/cs670/Project/AI_FINAL_PROJECT.pdf) [[Presentation]](https://docs.google.com/presentation/d/1yXDd3kXt9yCN37PjIVS4lxPcyhPHw4ys/edit#slide=id.p5)
 
       - title: Sentiment Analysis on Movie Review Dataset
         link: "https://github.com/jeet1912/ms/blob/main/ds680/assignments/DS680_HW3.ipynb"
