@@ -139,7 +139,7 @@ projects:
        - title: Analysing OxCGRT Dataset
          link: "https://docs.google.com/presentation/d/1yXDd3kXt9yCN37PjIVS4lxPcyhPHw4ys/edit#slide=id.p5"
          tagline: |
-           - Conducted data engineering, exploratory data analysis and feature engineering adopting appropriate imputating strategies.
+           - Conducted data engineering, exploratory data analysis and feature engineering adopting appropriate imputation strategies.
            - Created Linear models for mortality rate against lagged effects of various government policies implemented during the pandemic.
            - Effectiveness of these policies was defined as a reduction in mortatlity rate and modeled using Decision Tree Classifier.
 
