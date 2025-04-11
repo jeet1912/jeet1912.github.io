@@ -151,14 +151,23 @@ projects:
         tagline: |
           Implemented a healthcare management system using Django and MySQL. 
           
-          [[Code Repository]](https://github.com/jeet1912/mhsAppForCS631) 
+          [[Code Repository]](https://github.com/jeet1912/mhsAppForCS631)
+
+
+      - title: Sentiment Analysis on Movie Review Dataset
+        link: "https://github.com/jeet1912/ms/blob/main/ds680/assignments/DS680_HW3.ipynb"
+        tagline: |
+          Conducted binary sentiment classification on The Large Movie Review Dataset developed by Stanford NLP research group using stochastic gradient descent model and a multi-layered perceptron. Their classification reports were compared, identifying that MLP outperformed SGD on all metrics except recall for positive reviews. 
+          
+          [[Code Repository]](https://github.com/jeet1912/ms/blob/main/ds680/assignments/DS680_HW3.ipynb)
+        
         
           
- 
- 
-     
-   
           
+          
+
+ 
+      
 
  
  
