@@ -54,6 +54,7 @@ career-profile:
       Committed to continuous learning and staying at the forefront of emerging technologies. 
       
       <b>Primary Interests</b>: Deep Learning.
+      
       <b>Secondary Interests</b>: Blockchain technology.
        
       [[MOOCs]](https://jeet1912.github.io/assets/docs/moocs.pdf) [[Certificates]](https://jeet1912.github.io/assets/docs/certificates.pdf)
@@ -133,13 +134,18 @@ projects:
           Introduced a boolean argument to display #selected_items in <i>react-native-multiple-select</i> by <i>toystars</i> [<b>450+</b> stars, <b>250k+</b> downloads].
           [[Pull Request]](https://github.com/toystars/react-native-multiple-select/pull/171)
 
+      - title: Comparitive Study of Selected Clustering Algorithms with Generated Datasets
+        link: "https://github.com/jeet1912/mhsAppForCS631"
+        tagline: |
+          Implemented a healthcare management system using Django and MySQL.  
+          [[Code Repository]](https://github.com/jeet1912/mhsAppForCS631)
+
       - title: Morrish Health Services 
         link: "https://github.com/jeet1912/mhsAppForCS631"
         tagline: |
           Implemented a healthcare management system using Django and MySQL.  
           [[Code Repository]](https://github.com/jeet1912/mhsAppForCS631)
                    
-          
       - title: DataCamp Data Scientist
         link: "https://github.com/jeet1912/Datacamp"
         tagline: |
