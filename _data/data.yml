@@ -134,117 +134,18 @@ projects:
           Introduced a boolean argument to display #selected_items in <i>react-native-multiple-select</i> by <i>toystars</i> [<b>550+</b> stars, <b>500k+</b> downloads].
           
           [[Pull Request]](https://github.com/toystars/react-native-multiple-select/pull/171)
-
-
-          
-       - title: Open Source Contribution
-         link: "https://github.com/toystars/react-native-multiple-select/pull/171"
-         tagline: |
-           Introduced a boolean argument to display #selected_items in <i>react-native-multiple-select</i> by <i>toystars</i> [<b>450+</b> stars, <b>250k+</b> downloads].
-           
-           [[Pull Request]](https://github.com/toystars/react-native-multiple-select/pull/171)
  
  
-       - title: Comparitive Study of Selected Clustering Algorithms with Generated Datasets
-         link: "https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/abhijeet_sahdev_finalTermProject.pdf"
-         tagline: |
-           - Carried out exploratory analysis and data engineering before removing outliers from the selected datasets out of which two were generated. 
-           - Implemented K means and Agglomerative Clustering from scratch along with the corresponding helper functions. 
-           - Summarized the findings by comparing across mean silhouette scores.
+      - title: Comparitive Study of Selected Clustering Algorithms with Generated Datasets
+        link: "https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/abhijeet_sahdev_finalTermProject.pdf"
+        tagline: |
+          - Carried out exploratory analysis and data engineering before removing outliers from the selected datasets out of which two were generated. 
+          - Implemented K means and Agglomerative Clustering from scratch along with the corresponding helper functions. 
+          - Summarized the findings by comparing across mean silhouette scores.
            
            [[Code Repository]](https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/CS634FTPbyAS.ipynb)
  
  
-       - title: Morrish Health Services 
-         link: "https://github.com/jeet1912/mhsAppForCS631"
-         tagline: |
-           Implemented a healthcare management system using Django and MySQL.  
-           
-           [[Code Repository]](https://github.com/jeet1912/mhsAppForCS631)
- 
- 
-       - title: Sentiment Analysis on Movie Review Dataset
-         link: "https://github.com/jeet1912/ms/blob/main/ds680/assignments/DS680_HW3.ipynb"
-         tagline: |
-           Conducted binary sentiment classification on The Large Movie Review Dataset developed by Stanford NLP research group using stochastic gradient descent model and a multi-layered perceptron. Their classification reports were compared, identifying that MLP outperformed SGD on all metrics except recall for positive reviews.
-           
-           [[Code Repository]](https://github.com/jeet1912/ms/blob/main/ds680/assignments/DS680_HW3.ipynb)
- 
-       - title: Compound Artificial Intelligence Systems
-         link: "https://github.com/jeet1912/ms/blob/main/ds677/research/abhijeet_sahdev_finalTermResearch.pdf"
-         tagline: |
-           Created a short research report on the state of the art compound artificial systems such as Haystack while also highlighing systems that can help monitor carbon emissions. 
-           
-           [[Report]](https://github.com/jeet1912/ms/blob/main/ds677/research/abhijeet_sahdev_finalTermResearch.pdf)
-           
-         
-       - title: Presentation on LIME
-         link: "https://docs.google.com/presentation/d/1eQfSmDas-72Xghj5IUkjnDy16ubLlI3jkmByYEaNCp0/edit#slide=id.p"
-         tagline: |
-           Curated a presentation on the paper "Why Should I trust You" Explaining the Predictions of Any Classifier by Marco T.R, 
-           Sameer Singh and Carlos Guestrin by designing an experiment using a story generated using Grok.
-           
-           [[Presentation]](https://docs.google.com/presentation/d/1eQfSmDas-72Xghj5IUkjnDy16ubLlI3jkmByYEaNCp0/edit#slide=id.p)
-           
-           
-                    
-       - title: DataCamp Data Scientist
-         link: "https://github.com/jeet1912/Datacamp"
-         tagline: |
-           Notebooks and other exercises implemented in Python for Data Scientist Career track (6 projects, 23 courses and 3 Assessments).
-
-           [[Code Repository]](https://github.com/jeet1912/Datacamp)
-           
- 
-           
-       - title: Competitive Programming
-         link: "https://github.com/jeet1912/leetcode"
-         tagline: |
-           Leetcode's Competitive Programming Course implemented in Python.
-           
-           [[Code Repository]](https://github.com/jeet1912/leetcode)
-       
- 
-       - title: Machine Learning at Verzeo
-         link: "https://github.com/jeet1912/Verzeo-Machine-Learning-Internship"
-         tagline: |
-           Performed data wrangling and exploratory data analyis on four projects with justifiable results as depicted in the reports and the git repo.
-           
-           [[Code Repository]](https://github.com/jeet1912/Verzeo-Machine-Learning-Internship)
-           
-       
-       - title: Waabec Hybrid App
-         link: "https://drive.google.com/file/d/1EipCdSwbyxxWABQslkiSeq22mOaJLvv2/view?usp=share_link"
-         tagline: |
-           A feasibility study on a hybrid application for Waabec that provides general, business, and sector specific language training to companies and organisations all over Spain in a multitude of languages.
-           
-           [[Presentation]](https://drive.google.com/file/d/1EipCdSwbyxxWABQslkiSeq22mOaJLvv2/view?usp=share_link)
-           
-        
-       - title: Covid-19 Dashboard
-         link: "https://github.com/jeet1912/Covid-19-Dashboard-using-REST-API"
-         tagline: |
-           Implemented as a part of Andrea Bizzoto's Flutter REST API crash course. The dashboard displays global Covid-19 stats using REST protocol to fetch data from a Firebase App, with offline functionality executed using shared preferences and error handling services.
-           
-           [[Code Repository]](https://github.com/jeet1912/Covid-19-Dashboard-using-REST-API)
-           
-                 
-       - title: Minor in Computational Mathematics
-         link: "https://github.com/jeet1912/CM"
-         tagline: |
-           As a part of 
-             - Applied Statistics and Time Series Analysis Course, implemented linear trend and moving averages for carbon dioxide emissions and crime data using Python, analysing the effect of change of span of moving average in the latter.
-             - Design of Experiments course, implemented one way anova test using Python.
-           
-           [[Code Repository]](https://github.com/jeet1912/CM)  
-           
-                 
-       - title: Projectile Motion GUI
-         link: "https://docs.google.com/document/d/1da61t8eEzwXGUEYhDfEcee075xHPArmsRReNTpp1IME/edit?usp=sharing"
-         tagline: |
-           As a part of the MATLAB for Engineers course, built an application that computes velocity in x and y directions, displacement in x-direction after time t and the angle of projection of a particle following projectile trajectory motion.
-           
-           [[Drive Link]](https://docs.google.com/document/d/1da61t8eEzwXGUEYhDfEcee075xHPArmsRReNTpp1IME/edit?usp=sharing)
    
           
 
