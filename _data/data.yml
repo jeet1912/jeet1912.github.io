@@ -97,7 +97,31 @@ experiences:
           - Prototyped a chat section using Cloud Firestore to connect users on the application.
         
           [[Demo]](https://drive.google.com/drive/u/0/folders/1-sTJRTzDhOe6hhWDwRLPQeIVHUUeyMkh) [[Code Repo]](https://github.com/KevMamba/Dystopia-Animal-Adoption-App)
-        
+
+
+publications:
+    title: Publications
+    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+    papers:
+      - title: Statistical Analysis of Sentence Structures through ASCII, Lexical Alignment and PCA
+        link: "https://doi.org/10.48550/arXiv.2503.10470"
+        authors: Abhijeet Sahdev
+#        conference: Addison-Wesley, 1968
+
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
+
+
 projects:
     title: Projects
     intro: >
@@ -167,30 +191,6 @@ projects:
           [[Drive Link]](https://docs.google.com/document/d/1da61t8eEzwXGUEYhDfEcee075xHPArmsRReNTpp1IME/edit?usp=sharing)
   
     
-        
- 
-publications:
-    title: Publications
-    intro: |
-#      You can list your publications in this section. Lorem ipsum dolor sit
-#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#      bibendum fringilla a eu lectus.
-    papers:
-      - title: Statistical Analysis of Sentence Structures through ASCII, Lexical Alignment and PCA
-        link: "https://doi.org/10.48550/arXiv.2503.10470"
-        authors: Abhijeet Sahdev
-#        conference: Addison-Wesley, 1968
-
-#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#        link: "#"
-#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-#      - title: A syntax directed compiler for Algol 60
-#        link: "#"
-#        authors: Edgar T. Irons
-#        conference: "Comm. ACM 4 (1961), 51–55"
-
 #skills:
 #    title: Skills &amp; Proficiency
 
