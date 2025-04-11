@@ -169,16 +169,16 @@ projects:
     
         
  
-#publications:
-#    title: Publications
-#    intro: |
+publications:
+    title: Publications
+    intro: |
 #      You can list your publications in this section. Lorem ipsum dolor sit
 #      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
 #      bibendum fringilla a eu lectus.
-#    papers:
-#      - title: The Art of Computer Programming
-#        link: "#"
-#        authors: Donald E. Knuth
+    papers:
+      - title: Statistical Analysis of Sentence Structures through ASCII, Lexical Alignment and PCA
+        link: "https://doi.org/10.48550/arXiv.2503.10470"
+        authors: Abhijeet Sahdev
 #        conference: Addison-Wesley, 1968
 
 #      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
