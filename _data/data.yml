@@ -161,8 +161,15 @@ projects:
           
           [[Code Repository]](https://github.com/jeet1912/ms/blob/main/ds680/assignments/DS680_HW3.ipynb)
         
-        
-          
+    
+      - title: Analyzing OxCGRT
+        link: "https://docs.google.com/presentation/d/1yXDd3kXt9yCN37PjIVS4lxPcyhPHw4ys/edit?usp=sharing&ouid=112379317695011195689&rtpof=true&sd=true"
+        tagline: |
+          - Conducted data engineering, exploratory data analysis and feature engineering while adopting appropriate imputation strategies.
+          - Created a linear model for lagged effects of various government policies against mortality rates.
+          - Defined policy effectiveness in terms of mortality rates, creating a decision tree classfier in the process.
+
+          [[Code Repository]](https://github.com/jeet1912/aoxcgrt) [[Report]](https://github.com/jeet1912/ms/blob/main/cs670/Project/AI_FINAL_PROJECT.pdf) [[Presentation]](https://docs.google.com/presentation/d/1yXDd3kXt9yCN37PjIVS4lxPcyhPHw4ys/edit?usp=sharing&ouid=112379317695011195689&rtpof=true&sd=true)
           
           
 
