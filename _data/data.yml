@@ -135,10 +135,12 @@ projects:
           [[Pull Request]](https://github.com/toystars/react-native-multiple-select/pull/171)
 
       - title: Comparitive Study of Selected Clustering Algorithms with Generated Datasets
-        link: "https://github.com/jeet1912/mhsAppForCS631"
+        link: "https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/abhijeet_sahdev_finalTermProject.pdf"
         tagline: |
-          Implemented a healthcare management system using Django and MySQL.  
-          [[Code Repository]](https://github.com/jeet1912/mhsAppForCS631)
+          - Carried out exploratory analysis and data engineering before removing outliers from the selected datasets out of which two were generated. 
+          - Implemented K means and Agglomerative Clustering from scratch along with the corresponding helper functions. 
+          - Summarized the findings by comparing across mean silhouette scores.
+          [[Code Repository]](https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/CS634FTPbyAS.ipynb)
 
       - title: Morrish Health Services 
         link: "https://github.com/jeet1912/mhsAppForCS631"
