@@ -138,6 +138,8 @@ projects:
         link: "https://github.com/jeet1912/mhsAppForCS631"
         tagline: |
           Implemented a healthcare management system using Django and MySQL.  
+
+          [[Code Repository]](https://github.com/jeet1912/mhsAppForCS631)
                    
           
       - title: DataCamp Data Scientist
