@@ -136,7 +136,7 @@ projects:
           [[Pull Request]](https://github.com/toystars/react-native-multiple-select/pull/171)
  
  
-      - title: Comparitive Study of Selected Clustering Algorithms with Generated Datasets
+      - title: Comparative Study of Selected Clustering Algorithms with Generated Datasets
         link: "https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/abhijeet_sahdev_finalTermProject.pdf"
         tagline: |
           - Carried out exploratory analysis and data engineering before removing outliers from the selected datasets out of which two were generated. 
