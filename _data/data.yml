@@ -71,6 +71,19 @@ education:
         
     
 experiences:
+    - role: Teaching Assistant
+      time: Aug 2024 - Dec 2024
+      company: YWCC, NJIT
+      details: |
+        In my role as a TA for CS 482 Data Mining class, I was responsible for grading assignments and creating answers keys for 20+ students as well as invigilating the exams.
+
+    - role: Desk Attendant
+      time: Aug 2024 - Oct 2024
+      company: ResLife, NJIT
+      details: |
+        In my role as a desk attendant at various dorms situated on campus, my key responsibilities including tagging in residents, maintaining logs of guests and ensuring that all Reslife policies were abided by people in and around dorms.
+
+      
     - role: Software Engineering Intern
       time: Dec 2020 – Jun 2021
       company: MyHealthToday, San Francisco
