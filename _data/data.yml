@@ -68,7 +68,14 @@ education:
       university: Manipal Academy of Higher Education
       time: 2017 - 2021
       details:
-        
+    - degree: Senior Secondary, TSBE
+      university: FIITJEE Junior College
+      time: 2015 - 2017
+      details:
+    - degree: High School, CBSE
+      university: Delhi Public School
+      time: 2006 - 2015
+      details: House Captain 2014-15
     
 experiences:
     - role: Teaching Assistant
