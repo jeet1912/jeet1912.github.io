@@ -159,9 +159,8 @@ projects:
       - title: Comparative Study of Selected Clustering Algorithms with Generated Datasets
         link: "https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/abhijeet_sahdev_finalTermProject.pdf"
         tagline: |
-          - Carried out exploratory analysis and data engineering before removing outliers from the selected datasets out of which two were generated. 
-          - Implemented K means and Agglomerative Clustering from scratch along with the corresponding helper functions. 
-          - Achieved top silhouette scores with K-Means on Dataset 1 (0.359, 3 clusters) and Dataset 2 (0.625, 2 clusters), and with Agglomerative on Dataset 3 (0.984, 2 clusters).
+          - Performed data mining in benchmarking unsupervised ML algorithms such as K-Means and Hierarchical Agglomerative Clustering on GenAI-generated datasets with outliers removed using IQR to enhance pattern discovery.
+          - Achieved top silhouette scores with K-Means on Dataset 1 (0.359, 3 clusters) and Dataset 2 (0.625, 2 clusters), and with Agglomerative on Dataset 3 (0.984, 2 clusters.)
            
            [[Code Repository]](https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/CS634FTPbyAS.ipynb)
 
@@ -185,10 +184,8 @@ projects:
       - title: Analyzing OxCGRT
         link: "https://docs.google.com/presentation/d/1yXDd3kXt9yCN37PjIVS4lxPcyhPHw4ys/edit?usp=sharing&ouid=112379317695011195689&rtpof=true&sd=true"
         tagline: |
-          - Conducted data engineering, data wrangling and cleaning appending suitable columns with appropriate imputation strategies on a dataset with 56 columns and 202760 tuples..
-          - Performed exploratory data analysis, creating new features to inculcate lagged effects on global mortality rates and effectiveness of policies..
-          - Designed and implemented an experimental setup for multivariate linear regression on daily mortality rates, achieving an $R^2$ score of 0.974 and MSE of 0.0003; modeled daily policy effectiveness using a decision tree classifier with an F1 score of 0.984..
-
+          - Conducted data engineering, data wrangling and cleaning appending suitable columns with appropriate imputation strategies followed by exploratory data analysis on a dataset with 56 columns and 202,760 tuples.
+          - Curated experiments through research for two supervised machine learning approaches multivariate linear regression on daily mortality rates, achieving an R2 score of 0.974 and MSE of 0.0003 and daily policy effectiveness using a decision tree classifier with an F1 score of 0.984.
           [[Code Repository]](https://github.com/jeet1912/aoxcgrt) [[Report]](https://github.com/jeet1912/ms/blob/main/cs670/Project/AI_FINAL_PROJECT.pdf) [[Presentation]](https://docs.google.com/presentation/d/1yXDd3kXt9yCN37PjIVS4lxPcyhPHw4ys/edit?usp=sharing&ouid=112379317695011195689&rtpof=true&sd=true)
           
 
