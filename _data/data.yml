@@ -129,7 +129,7 @@ publications:
     papers:
       - title: Statistical Analysis of Sentence Structures through ASCII, Lexical Alignment and PCA
         link: "https://doi.org/10.48550/arXiv.2503.10470"
-        authors: Abhijeet Sahdev
+        authors: A Sahdev,preprint: https://doi.org/10.48550/arXiv.2503.10470
 #        conference: Addison-Wesley, 1968
 
 #      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
@@ -160,7 +160,7 @@ projects:
         link: "https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/abhijeet_sahdev_finalTermProject.pdf"
         tagline: |
           - Performed data mining in benchmarking unsupervised ML algorithms such as K-Means and Hierarchical Agglomerative Clustering on GenAI-generated datasets with outliers removed using IQR to enhance pattern discovery.
-          - Achieved top silhouette scores with K-Means on Dataset 1 (0.359, 3 clusters) and Dataset 2 (0.625, 2 clusters), and with Agglomerative on Dataset 3 (0.984, 2 clusters.)
+          - Achieved top silhouette scores with K-Means on Dataset 1 (0.359, 3 clusters) and Dataset 2 (0.625, 2 clusters), and with Agglomerative on Dataset 3 (0.984, 2 clusters).
            
            [[Code Repository]](https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/CS634FTPbyAS.ipynb)
 
