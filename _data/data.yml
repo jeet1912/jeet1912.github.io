@@ -177,7 +177,9 @@ projects:
       - title: Sentiment Analysis on Movie Review Dataset
         link: "https://github.com/jeet1912/ms/blob/main/ds680/assignments/DS680_HW3.ipynb"
         tagline: |
-          Conducted binary sentiment classification on The Large Movie Review Dataset developed by Stanford NLP research group using stochastic gradient descent model and a multi-layered perceptron. Their classification reports were compared, identifying that MLP outperformed SGD on all metrics except recall for positive reviews. 
+          - Conducted binary sentiment classification on The Large Movie Review Dataset developed by Stanford NLP research group. This dataset provides 25,000 movie reviews each for training and testing, along with additional unlabeled data. 
+          - For preprocessing, first, each tuple under text was converted to lowercase to extract word tokens. These tokens were filtered to remove stopwords and maintain alphabets as per the language of the text selected, i.e. English. These tokens were shortened to their root words using lemmatization. These set of tokens are used to create a Bag Of Words of a trigram model using the train set, which was used to transform the test set. 
+          - Classification reports of an MLP classifier was compared with a SGD model, identifying that MLP outperformed SGD on all metrics except recall for positive reviews.gradient descent model and a multi-layered perceptron. Their classification reports were compared, identifying that MLP outperformed SGD on all metrics except recall for positive reviews. 
           
           [[Code Repository]](https://github.com/jeet1912/ms/blob/main/ds680/assignments/DS680_HW3.ipynb)
         
