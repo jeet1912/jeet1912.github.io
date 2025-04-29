@@ -130,7 +130,7 @@ publications:
       - title: Statistical Analysis of Sentence Structures through ASCII, Lexical Alignment and PCA
         link: "https://doi.org/10.48550/arXiv.2503.10470"
         authors: A Sahdev
-        conference: preprint: https://doi.org/10.48550/arXiv.2503.10470
+        
 #        conference: Addison-Wesley, 1968
 
 #      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
