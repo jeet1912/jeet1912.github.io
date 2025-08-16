@@ -78,6 +78,12 @@ education:
       details: House Captain 2014-15
     
 experiences:
+    - role: Research Assistant
+      time: May 2025 - Ongoing
+      company: Immersive Creation Lab, NJIT
+      details: |
+        Currently working on a web-based implementation of 3D Copilot.
+        
     - role: Teaching Assistant
       time: Aug 2024 - Dec 2024
       company: YWCC, NJIT
@@ -149,14 +155,23 @@ projects:
     intro: >
     
     assignments:
+      - title: GIT-base Ablation Study
+        link: "https://github.com/jeet1912/ms/blob/main/ds677_2/project/GITAblationStudy.pdf"
+        tagline: |
+          - Engineered and preprocessed MIMIC-CXR-JPG v2.1.0 (377K+ chest X-rays, 227K reports) via GCP BigQuery and CheXpert, generating structured mini-reports and building a balanced 66K+ study dataset with robust stratified splits.
+          - Implemented and benchmarked GIT-base vision–language architecture under Full Fine-Tuning vs. LoRA (vision-only, text-only), designing a resource-optimized training strategy that reduced GPU memory usage by 50% and training time by 67%.
+          - Demonstrated 5.8× improvement in BLEU with LoRA Text-Only over full fine-tuning, validating LoRA as a parameter-eﬃcient and domain-adaptive strategy for medical vision–language tasks.
+ 
+            [[Code Repository]](https://github.com/jeet1912/gitbase_ablationStudy)
+ 
       - title: Open Source Contribution
         link: "https://github.com/toystars/react-native-multiple-select/pull/171"
         tagline: |
           Introduced a boolean argument to display #selected_items in <i>react-native-multiple-select</i> by <i>toystars</i> [<b>550+</b> stars, <b>500k+</b> downloads].
           
           [[Pull Request]](https://github.com/toystars/react-native-multiple-select/pull/171)
- 
- 
+
+        
       - title: Comparative Study of Selected Clustering Algorithms with Generated Datasets
         link: "https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/abhijeet_sahdev_finalTermProject.pdf"
         tagline: |
