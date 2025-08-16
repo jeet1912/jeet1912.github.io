@@ -165,7 +165,7 @@ projects:
             [[Code Repository]](https://github.com/jeet1912/gitbase_ablationStudy)
 
       - title: Sepsis Treatment with Deep Reinforcement Learning
-        link: "https://github.com/jeet1912/ms/blob/main/ds699/project/Final%20Report%20Group%201.pdf"
+        link: "https://github.com/jeet1912/ms/blob/main/ds699/project/FinalReportGroup1.pdf"
         tagline: |
           - Implemented a reinforcement learning framework (WD3QNE) for ICU sepsis treatment, replicating published results across 8 experiments with 43 vs. 45 feature sets.
           - Processed and curated MIMIC-III data (14,505 patients, 344,800 records) using hierarchical time-aware imputation and Sepsis-3 cohort selection.
