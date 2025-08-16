@@ -163,14 +163,17 @@ projects:
           - Demonstrated 5.8× improvement in BLEU with LoRA Text-Only over full fine-tuning, validating LoRA as a parameter-eﬃcient and domain-adaptive strategy for medical vision–language tasks.
  
             [[Code Repository]](https://github.com/jeet1912/gitbase_ablationStudy)
- 
-      - title: Open Source Contribution
-        link: "https://github.com/toystars/react-native-multiple-select/pull/171"
-        tagline: |
-          Introduced a boolean argument to display #selected_items in <i>react-native-multiple-select</i> by <i>toystars</i> [<b>550+</b> stars, <b>500k+</b> downloads].
-          
-          [[Pull Request]](https://github.com/toystars/react-native-multiple-select/pull/171)
 
+      - title: Sepsis Treatment with Deep Reinforcement Learning
+        link: "https://github.com/jeet1912/ms/blob/main/ds699/project/Final%20Report%20Group%201.pdf"
+        tagline: |
+          - Implemented a reinforcement learning framework (WD3QNE) for ICU sepsis treatment, replicating published results across 8 experiments with 43 vs. 45 feature sets.
+          - Processed and curated MIMIC-III data (14,505 patients, 344,800 records) using hierarchical time-aware imputation and Sepsis-3 cohort selection.
+          - Reduced feature set from 45 to 43 via sequential backward selection, improving interpretability while maintaining model stability.
+          - Trained agents over 100 epochs, achieving structured 5×5 fluid/vasopressor policies aligned with clinician behavior and robust survival outcomes.
+
+            [[Code Repository]](https://github.com/tblicharznjit/DS669_Group1)
+ 
         
       - title: Comparative Study of Selected Clustering Algorithms with Generated Datasets
         link: "https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/abhijeet_sahdev_finalTermProject.pdf"
@@ -180,14 +183,12 @@ projects:
            
            [[Code Repository]](https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/CS634FTPbyAS.ipynb)
 
-      
-      - title: Morrish Health Services
-        link: "https://github.com/jeet1912/mhsAppForCS631"
+      - title: Open Source Contribution
+        link: "https://github.com/toystars/react-native-multiple-select/pull/171"
         tagline: |
-          Implemented a healthcare management system using Django and MySQL. 
+          Introduced a boolean argument to display #selected_items in <i>react-native-multiple-select</i> by <i>toystars</i> [<b>550+</b> stars, <b>500k+</b> downloads].
           
-          [[Code Repository]](https://github.com/jeet1912/mhsAppForCS631)
-
+          [[Pull Request]](https://github.com/toystars/react-native-multiple-select/pull/171)
 
       - title: Sentiment Analysis on Movie Review Dataset
         link: "https://github.com/jeet1912/ms/blob/main/ds680/assignments/DS680_HW3.ipynb"
@@ -221,6 +222,14 @@ projects:
           Curated a presentation on the paper "Why Should I trust You" Explaining the Predictions of Any Classifier by Marco T.R, Sameer Singh and Carlos Guestrin by designing an experiment using a story generated using Grok.
           
           [[Presentation]](https://docs.google.com/presentation/d/1eQfSmDas-72Xghj5IUkjnDy16ubLlI3jkmByYEaNCp0/edit#slide=id.p)
+
+
+      - title: Morrish Health Services
+        link: "https://github.com/jeet1912/mhsAppForCS631"
+        tagline: |
+          Implemented a healthcare management system using Django and MySQL. 
+          
+          [[Code Repository]](https://github.com/jeet1912/mhsAppForCS631)
            
                     
       - title: DataCamp Data Scientist
@@ -272,14 +281,6 @@ projects:
              
              [[Code Repository]](https://github.com/jeet1912/CM)  
            
-                 
-      - title: Projectile Motion GUI
-        link: "https://docs.google.com/document/d/1da61t8eEzwXGUEYhDfEcee075xHPArmsRReNTpp1IME/edit?usp=sharing"
-        tagline: |
-          As a part of the MATLAB for Engineers course, built an application that computes velocity in x and y directions, displacement in x-direction after time t and the angle of projection of a particle following projectile trajectory motion.
-          
-          [[Drive Link]](https://docs.google.com/document/d/1da61t8eEzwXGUEYhDfEcee075xHPArmsRReNTpp1IME/edit?usp=sharing)
-   
  
       
 
