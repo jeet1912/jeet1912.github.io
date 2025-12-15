@@ -164,7 +164,7 @@ experiences:
 
 
 publications:
-    title: Pre-Print
+    title: Pre-Print & manuscript
     intro: |
 #      You can list your publications in this section. Lorem ipsum dolor sit
 #      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
@@ -172,6 +172,9 @@ publications:
     papers:
       - title: Statistical Analysis of Sentence Structures through ASCII, Lexical Alignment and PCA
         link: "https://doi.org/10.48550/arXiv.2503.10470"
+        authors: A Sahdev
+      - title: HyperMedDiff-Risk 
+        link:"https://github.com/jeet1912/hyperbolic-ehr-diffusion/blob/main/reports/DS_683.pdf"
         authors: A Sahdev
         
 #        conference: Addison-Wesley, 1968
