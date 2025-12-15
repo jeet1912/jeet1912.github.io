@@ -90,7 +90,16 @@ experiences:
       time: May 2025 - Ongoing
       company: Immersive Creation Lab, NJIT
       details: |
-        Currently working on a web-based implementation of 3D Copilot.
+        Currently working on a web-based implementation of 3D Copilot under [Prof. Lei Zhang](https://raynez.art/bio/).
+          - Built a browser-native 3D copilot integrating React + react-three-fiber editing, Sketchfab retrieval, and an LLM-driven staging/commit
+            workflow.
+          - Developed a GLB optimization pipeline (gltf-transform, Draco, texture compression) to accelerate model streaming and caching, reducing
+            3D asset loading time by 13%.
+          - Engineered an Express backend enforcing JSON tool calls, structured error handling, telemetry logging, and traffic rate-limiting.
+          - Authored a 1.6K-line prompting specification encoding spatial reasoning (collision checks, quadrant heuristics, collective-noun expan-
+          sions, synonym/fuzzy matching, safe animation code).
+          - Prototyping GNN-based scene reasoning modules to capture relational and geometric structure for controllable generation.
+          - Supporting a production-grade UIST submission and longitudinal user studies on controllable 3D interfaces.
         
     - role: Teaching Assistant
       time: Aug 2024 - Dec 2024
