@@ -87,6 +87,26 @@ education:
     
 experiences:
     - role: Research Assistant
+      time: Sept 2025 - Ongoing
+      company: Xu Lab, NJIT
+      details: |
+        Currently working on HyperMedDiff-Risk under [Prof. Mengjia Xu](https://gracexu182.github.io).
+          - Developing a synthetic ICD trajectory framework using rooted-tree ontologies to study geometry–accuracy tradeoffs between Euclidean
+            and hyperbolic embeddings, DDPMs, and rectified-flow generators.
+          - Proposed a curvature-aware generative risk modeling framework integrating Poincar´e-ball ICD embeddings, graph-diffusion encoders,
+            and rectified-flow transport to overcome Euclidean DDPM limitations.
+          - Reconstructed the MedDiffusion heart-failure cohort with corrected temporal windows and demographic matching, producing the first
+            reproducible benchmark for geometry-aware EHR generation.
+          - Trained hyperbolic ICD embeddings with HDD-supervised alignment (Corr = 0.84–0.91), substantially improving hierarchical fidelity
+            over Euclidean baselines.
+          - Designed a graph-hyperbolic encoder combining tangent-space attention, diffusion kernels, Einstein pooling, and temporal embeddings
+            to learn model hierarchical comorbidities and irregular visit intervals.
+          - Achieved state-of-the-art performance on MIMIC-III (AUPRC 0.79–0.83 vs. 0.7064 MedDiffusion; Cohen’s κ ≈ 0.50 vs 0.45),
+            supported by extensive ablations quantifying the roles of curvature, encoder depth, diffusion scope, and decoder expressivity.
+          - Used scaling laws from synthetic and clinical experiments to guide architectural choices and training strategies for HyperMedDiff-Risk
+            [Code](https://github.com/jeet1912/hyperbolic-ehr-diffusion/blob/main/src/risk_prediction_mimic.py), now being prepared as a manuscript and extended technical report.
+    
+    - role: Research Assistant
       time: May 2025 - Ongoing
       company: Immersive Creation Lab, NJIT
       details: |
