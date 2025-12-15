@@ -174,7 +174,7 @@ publications:
         link: "https://doi.org/10.48550/arXiv.2503.10470"
         authors: A Sahdev
       - title: HyperMedDiff-Risk 
-        link:"https://github.com/jeet1912/hyperbolic-ehr-diffusion/blob/main/reports/DS_683.pdf"
+        link: "https://github.com/jeet1912/hyperbolic-ehr-diffusion/blob/main/reports/DS_683.pdf"
         authors: A Sahdev
         
 #        conference: Addison-Wesley, 1968
@@ -269,7 +269,7 @@ projects:
       - title: Presentation on LIME
         link: "https://docs.google.com/presentation/d/1eQfSmDas-72Xghj5IUkjnDy16ubLlI3jkmByYEaNCp0/edit#slide=id.p"
         tagline: |
-          Curated a presentation on the paper "Why Should I trust You" Explaining the Predictions of Any Classifier by Marco T.R, Sameer Singh and Carlos Guestrin by designing an experiment using a story generated using Grok.
+          - Curated a presentation on the paper "Why Should I trust You" Explaining the Predictions of Any Classifier by Marco T.R, Sameer Singh and Carlos Guestrin by designing an experiment using a story generated using Grok.
           
             [[Presentation]](https://docs.google.com/presentation/d/1eQfSmDas-72Xghj5IUkjnDy16ubLlI3jkmByYEaNCp0/edit#slide=id.p)
 
@@ -277,7 +277,7 @@ projects:
       - title: Morrish Health Services
         link: "https://github.com/jeet1912/mhsAppForCS631"
         tagline: |
-          Implemented a healthcare management system using Django and MySQL. 
+          - Implemented a healthcare management system using Django and MySQL. 
           
             [[Code Repository]](https://github.com/jeet1912/mhsAppForCS631)
            
@@ -285,7 +285,7 @@ projects:
       - title: DataCamp Data Scientist
         link: "https://github.com/jeet1912/Datacamp"
         tagline: |
-          Notebooks and other exercises implemented in Python for Data Scientist Career track (6 projects, 23 courses and 3 Assessments).
+          - Notebooks and other exercises implemented in Python for Data Scientist Career track (6 projects, 23 courses and 3 Assessments).
           
             [[Code Repository]](https://github.com/jeet1912/Datacamp)
  
@@ -293,7 +293,7 @@ projects:
       - title: Competitive Programming
         link: "https://github.com/jeet1912/leetcode"
         tagline: |
-          Leetcode's Competitive Programming Course implemented in Python.
+          - Leetcode's Competitive Programming Course implemented in Python.
           
             [[Code Repository]](https://github.com/jeet1912/leetcode)
        
@@ -301,7 +301,7 @@ projects:
       - title: Machine Learning at Verzeo
         link: "https://github.com/jeet1912/Verzeo-Machine-Learning-Internship"
         tagline: |
-          Performed data wrangling and exploratory data analyis on four projects with justifiable results as depicted in the reports and the git repo.
+          - Performed data wrangling and exploratory data analyis on four projects with justifiable results as depicted in the reports and the git repo.
           
             [[Code Repository]](https://github.com/jeet1912/Verzeo-Machine-Learning-Internship)
            
@@ -309,7 +309,7 @@ projects:
       - title: Waabec Hybrid App
         link: "https://drive.google.com/file/d/1EipCdSwbyxxWABQslkiSeq22mOaJLvv2/view?usp=share_link"
         tagline: |
-          A feasibility study on a hybrid application for Waabec that provides general, business, and sector specific language training to companies and organisations all over Spain in a multitude of languages.
+          - A feasibility study on a hybrid application for Waabec that provides general, business, and sector specific language training to companies and organisations all over Spain in a multitude of languages.
           
             [[Presentation]](https://drive.google.com/file/d/1EipCdSwbyxxWABQslkiSeq22mOaJLvv2/view?usp=share_link)
            
@@ -317,7 +317,7 @@ projects:
       - title: Covid-19 Dashboard
         link: "https://github.com/jeet1912/Covid-19-Dashboard-using-REST-API"
         tagline: |
-          Implemented as a part of Andrea Bizzoto's Flutter REST API crash course. The dashboard displays global Covid-19 stats using REST protocol to fetch data from a Firebase App, with offline functionality executed using shared preferences and error handling services.
+          - Implemented as a part of Andrea Bizzoto's Flutter REST API crash course. The dashboard displays global Covid-19 stats using REST protocol to fetch data from a Firebase App, with offline functionality executed using shared preferences and error handling services.
           
             [[Code Repository]](https://github.com/jeet1912/Covid-19-Dashboard-using-REST-API)
            
@@ -325,7 +325,7 @@ projects:
       - title: Minor in Computational Mathematics
         link: "https://github.com/jeet1912/CM"
         tagline: |
-          As a part of 
+          - As a part of 
              - Applied Statistics and Time Series Analysis Course, implemented linear trend and moving averages for carbon dioxide emissions and crime data using Python, analysing the effect of change of span of moving average in the latter.
              - Design of Experiments course, implemented one way anova test using Python.
              
