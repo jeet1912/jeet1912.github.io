@@ -50,13 +50,21 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Graduate Student in Artificial Intelligence at <b> New Jersey Institute of Technology's Ying Wu College of Computing in Newark, New Jersey, USA</b>. Completed undergraduate degree from <b>Manipal Institute of Technology, India</b> in <b>Computer Science and Engineering</b> with a  minor in <b>Computational Mathematics</b>. Highly motivated and results-driven Software Engineer with a strong foundation in full-stack development, cloud computing, and  passionate about applications of technology to facilitate positive social change.
-      Committed to continuous learning and staying at the forefront of emerging technologies. 
-      
-      <b>Primary Interest</b>: Deep learning at scale.
-      
-      <b>Secondary Interest</b>: Blockchain technology.
-       
+      Graduate student in <b>Artificial Intelligence</b> at <b>New Jersey Institute of Technology’s Ying Wu College of Computing</b>, Newark, USA. 
+      I completed my undergraduate degree in <b>Computer Science and Engineering</b> with a minor in <b>Computational Mathematics</b> from 
+      <b>Manipal Institute of Technology, India</b>.
+
+      My work focuses on <b>geometric and generative machine learning</b>, with an emphasis on diffusion and flow-based models, 
+      graph neural networks, and non-Euclidean representations for structured biomedical data. 
+      I am particularly interested in how <b>latent geometry and transport dynamics</b> govern structure preservation, interpretability, 
+      and robustness in large-scale clinical prediction systems.
+
+      I build models end-to-end, combining theoretical design with large-scale empirical validation and systems-level implementation 
+      (CUDA/MPI). My goal is to develop machine learning systems that are both <b>mathematically grounded</b> and <b>clinically meaningful</b>.
+
+      <b>Primary Research Interests</b>: Geometric deep learning, diffusion and flow models, graph-based clinical machine learning.  
+      <b>Secondary Interests</b>: High-performance ML systems, interpretable AI, structured generative modeling.
+          
       [[MOOCs]](https://jeet1912.github.io/assets/docs/moocs.pdf) [[Certificates]](https://jeet1912.github.io/assets/docs/certificates.pdf)
       
 education:
