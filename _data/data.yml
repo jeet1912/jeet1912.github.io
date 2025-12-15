@@ -63,19 +63,19 @@ education:
     - degree: M.S in Artificial Intelligence 
       university: New Jersey Institute of Technology
       time: 2024-2026
-      details:
+      details: CGPA: 3.86/4
     - degree: B.Tech in Computer Science and Engineering
       university: Manipal Academy of Higher Education
       time: 2017 - 2021
-      details:
+      details: CGPA: 3.34/4
     - degree: Senior Secondary, TSBE
       university: FIITJEE Junior College
       time: 2015 - 2017
-      details:
+      details: Percentage: 94.8%
     - degree: High School, CBSE
       university: Delhi Public School
       time: 2006 - 2015
-      details: House Captain 2014-15
+      details: CGPA: 10/10, House Captain 2014-15
     
 experiences:
     - role: Research Assistant
