@@ -196,14 +196,14 @@ projects:
     
     assignments:
       - title: Distributed GPT-2 
-        link: "https://github.com/jeet1912/ms/blob/main/ds677_2/project/GITAblationStudy.pdf"
+        link: "https://github.com/jeet1912/ms/blob/main/cs670/Project/AI_FINAL_PROJECT.pdf"
         tagline: |
           - Implemented a minimal GPT-2 in C++ with custom autograd, CUDA kernels, tokenizer/dataloader, and Adam optimizer to study
             transformer internals.
           - Extended to distributed training with MPI data parallelism, gradient allreduce, and rank-aware batching across multi-GPU nodes.
           - Achieved 67× training and 14× inference speedups (226s vs. 15,264s CPU baseline) while maintaining model quality.
  
-            [[Code Repository]](https://github.com/felixg318/HPC-GPT2) [[Report]](https://github.com/jeet1912/ms/blob/main/cs670/Project/AI_FINAL_PROJECT.pdf) [[Presentation]](https://github.com/felixg318/HPC-GPT2/blob/main/docs/report.pdf)
+            [[Code Repository]](https://github.com/felixg318/HPC-GPT2) [[Report]](https://github.com/jeet1912/ms/blob/main/cs670/Project/AI_FINAL_PROJECT.pdf) 
 
       - title: GIT-base Ablation Study
         link: "https://github.com/jeet1912/ms/blob/main/ds677_2/project/GITAblationStudy.pdf"
