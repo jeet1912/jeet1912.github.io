@@ -160,7 +160,7 @@ publications:
       - title: Statistical Analysis of Sentence Structures through ASCII, Lexical Alignment and PCA
         link: "https://doi.org/10.48550/arXiv.2503.10470"
         authors: A Sahdev
-      - title: HyperMedDiff-Risk 
+      - title: HyperMedDiff-Risk, A hierarchical diffusion model for EHR Data Augmentation and Risk Prediction
         link: "https://github.com/jeet1912/hyperbolic-ehr-diffusion/blob/main/reports/DS_683.pdf"
         authors: A Sahdev
         
