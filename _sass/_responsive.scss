@@ -22,7 +22,11 @@
   }
 
   .research-figure {
-    grid-template-columns: 1fr;
+    figure {
+      float: none;
+      width: 100%;
+      margin: 10px 0;
+    }
   }
 
   .main-wrapper .time {
