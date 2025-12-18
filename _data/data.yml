@@ -302,48 +302,42 @@ projects:
           - Implemented a healthcare management system using Django and MySQL. 
           
             [[Code Repository]](https://github.com/jeet1912/mhsAppForCS631) [[User Guide]](https://github.com/jeet1912/mhsAppForCS631/blob/main/user_guide.pdf)
-           
-                    
+                               
       - title: DataCamp Data Scientist
         link: "https://github.com/jeet1912/Datacamp"
         tagline: |
           - Notebooks and other exercises implemented in Python for Data Scientist Career track (6 projects, 23 courses and 3 Assessments).
           
             [[Code Repository]](https://github.com/jeet1912/Datacamp)
- 
-           
+            
       - title: Competitive Programming
         link: "https://github.com/jeet1912/leetcode"
         tagline: |
           - Leetcode's Competitive Programming Course implemented in Python.
           
             [[Code Repository]](https://github.com/jeet1912/leetcode)
-       
- 
+        
       - title: Machine Learning at Verzeo
         link: "https://github.com/jeet1912/Verzeo-Machine-Learning-Internship"
         tagline: |
           - Performed data wrangling and exploratory data analyis on four projects with justifiable results as depicted in the reports and the git repo.
           
             [[Code Repository]](https://github.com/jeet1912/Verzeo-Machine-Learning-Internship)
-           
-       
+                  
       - title: Waabec Hybrid App
         link: "https://drive.google.com/file/d/1EipCdSwbyxxWABQslkiSeq22mOaJLvv2/view?usp=share_link"
         tagline: |
           - A feasibility study on a hybrid application for Waabec that provides general, business, and sector specific language training to companies and organisations all over Spain in a multitude of languages.
           
             [[Presentation]](https://drive.google.com/file/d/1EipCdSwbyxxWABQslkiSeq22mOaJLvv2/view?usp=share_link)
-           
-        
+                   
       - title: Covid-19 Dashboard
         link: "https://github.com/jeet1912/Covid-19-Dashboard-using-REST-API"
         tagline: |
           - Implemented as a part of Andrea Bizzoto's Flutter REST API crash course. The dashboard displays global Covid-19 stats using REST protocol to fetch data from a Firebase App, with offline functionality executed using shared preferences and error handling services.
           
             [[Code Repository]](https://github.com/jeet1912/Covid-19-Dashboard-using-REST-API)
-           
-                 
+                            
       - title: Minor in Computational Mathematics
         link: "https://github.com/jeet1912/CM"
         tagline: |
