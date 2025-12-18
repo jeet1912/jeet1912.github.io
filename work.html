@@ -3,26 +3,4 @@ layout: default
 title: Work
 ---
 
-{% assign work_items = site.data.data['coursework-projects'].items %}
-{% if work_items %}
-<section class="section projects-section">
-  <h2 class="section-title">Work Experience</h2>
-  {% for project in work_items %}
-    {% if project.title == "MyHealthToday Patient Engagement MVP" or project.title == "Dystopia Pet Adoption App" %}
-    <div class="item">
-      <div class="project-row">
-        <span class="project-title">{% if project.link %}<a href="{{ project.link }}" target="_blank">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</span>
-        {% if project.link %}
-        <span class="project-links">
-          <a href="{{ project.link }}" target="_blank"><i class="fas fa-file-alt"></i> Link</a>
-        </span>
-        {% endif %}
-      </div>
-      {% if project.tagline %}
-      <div class="project-tagline" align="justify">{{ project.tagline | markdownify }}</div>
-      {% endif %}
-    </div>
-    {% endif %}
-  {% endfor %}
-</section>
-{% endif %}
+{% include work.html %}

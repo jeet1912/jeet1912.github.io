@@ -8,14 +8,24 @@
 
   {% for item in papers.items %}
     <div class="item">
-
-      <span class="project-title">
-        {% if item.link %}
-        <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
-        {% else %}
-        {{ item.title }}
-        {% endif %}
-      </span>
+      <div class="paper-row">
+        <span class="project-title">
+          {% if item.link %}
+          <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
+          {% else %}
+          {{ item.title }}
+          {% endif %}
+        </span>
+        <span class="project-links">
+          {% if item.links %}
+            {% for l in item.links %}
+              {% if l.type == "ppt" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-file-powerpoint"></i> Slides</a>{% endif %}
+              {% if l.type == "pdf" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>{% endif %}
+              {% if l.type == "github" %}<a href="{{ l.url }}" target="_blank"><i class="fab fa-github"></i> Code</a>{% endif %}
+            {% endfor %}
+          {% elsif item.link %}<a href="{{ item.link }}" target="_blank"><i class="fas fa-file-alt"></i> Link</a>{% endif %}
+        </span>
+      </div>
 
       {% if item.tagline %}
       <div class="project-tagline" align="justify">{{ item.tagline | markdownify }}</div>

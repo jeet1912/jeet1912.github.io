@@ -1,0 +1,27 @@
+{% assign work = site.data.data.work %}
+{% if work and work.items %}
+<section class="section work-section">
+  <h2 class="section-title">{{ work.title }}</h2>
+  {% for job in work.items %}
+    <div class="item">
+      <div class="project-row">
+        <span class="project-title">{{ job.title }}</span>
+        <span class="project-links">
+          {% if job.links %}
+            {% for l in job.links %}
+              {% if l.type == "github" %}<a href="{{ l.url }}" target="_blank"><i class="fab fa-github"></i> Code</a>{% endif %}
+              {% if l.type == "pdf" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-file-pdf"></i> Report</a>{% endif %}
+              {% if l.type == "ppt" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-file-powerpoint"></i> Slides</a>{% endif %}
+              {% if l.type == "notebook" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-book-open"></i> Notebook</a>{% endif %}
+              {% if l.type == "pr" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-code-branch"></i> PR</a>{% endif %}
+            {% endfor %}
+          {% endif %}
+        </span>
+      </div>
+      {% if job.tagline %}
+      <div class="project-tagline" align="justify">{{ job.tagline | markdownify }}</div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
+{% endif %}

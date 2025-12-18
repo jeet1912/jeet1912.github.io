@@ -272,6 +272,14 @@ li {
     align-items: center;
     flex-wrap: wrap;
   }
+  .project-row .project-links,
+  .publication-row .project-links,
+  .paper-row .project-links {
+    margin-left: auto;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
   .project-links a {
     display: inline-block;
     padding: 2px 8px;
@@ -285,6 +293,13 @@ li {
       background-color: lighten($smoky-white, 4%);
       color: darken($header-navy, 10%);
     }
+  }
+  .publication-row,
+  .paper-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
   }
 
   .publication-title {

@@ -30,6 +30,7 @@
               {% if l.type == "pdf" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-file-pdf"></i> Report</a>{% endif %}
               {% if l.type == "ppt" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-file-powerpoint"></i> Slides</a>{% endif %}
               {% if l.type == "notebook" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-book-open"></i> Notebook</a>{% endif %}
+              {% if l.type == "pr" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-code-branch"></i> PR</a>{% endif %}
             {% endfor %}
           {% elsif project.link %}<a href="{{ project.link }}" target="_blank"><i class="fas fa-file-alt"></i> Link</a>{% endif %}
         </span>

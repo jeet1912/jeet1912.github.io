@@ -259,8 +259,61 @@ coursework-projects:
           - type: pdf
             url: "https://github.com/jeet1912/mhsAppForCS631/blob/main/user_guide.pdf"
 
+      - title: Open Source Contribution
+        tagline: |
+          - Added opt-in selected-count display to `react-native-multiple-select` (500k+ downloads), keeping backward compatibility for existing apps.
+        links:
+          - type: pr
+            url: "https://github.com/toystars/react-native-multiple-select/pull/171"
+
+      - title: DataCamp Data Scientist
+        tagline: |
+          - Completed 6 projects, 23 courses, and 3 assessments; archived notebooks and exercises in Python.
+        links:
+          - type: github
+            url: "https://github.com/jeet1912/Datacamp"
+
+      - title: Competitive Programming
+        tagline: |
+          - Solved LeetCode competitive programming coursework in Python with pattern-focused implementations.
+        links:
+          - type: github
+            url: "https://github.com/jeet1912/leetcode"
+        
+      - title: Machine Learning at Verzeo
+        link: "https://github.com/jeet1912/Verzeo-Machine-Learning-Internship"
+        tagline: |
+          - Conducted data wrangling and exploratory analysis across four ML mini-projects; documented results and code.
+        links:
+          - type: github
+            url: "https://github.com/jeet1912/Verzeo-Machine-Learning-Internship"    
+                  
+      - title: Waabec Hybrid App
+        tagline: |
+          - Feasibility study for a hybrid language-training app serving sector-specific curricula across Spain.
+        links:
+          - type: pdf
+            url: "https://drive.google.com/file/d/1EipCdSwbyxxWABQslkiSeq22mOaJLvv2/view?usp=share_link"
+
+      - title: Covid-19 Dashboard
+        tagline: |
+          - A dashboard that shows the number of active Covid cases, deaths and patients recovered using REST protocol to fetch data from https://ncov2019-admin.firebaseapp.com with offline support via shared preferences and structured error handling.
+        links:
+          - type: github
+            url: "https://github.com/jeet1912/Covid-19-Dashboard-using-REST-API"
+                            
+      - title: Minor in Computational Mathematics
+        tagline: |
+          - Implemented time-series smoothing and ANOVA experiments for coursework in applied statistics and experimental design.
+        links:
+          - type: github
+            url: "https://github.com/jeet1912/CM"
+
+
+work:
+    title: Work Experience
+    items:
       - title: MyHealthToday Patient Engagement MVP
-        link: "https://jeet1912.github.io/assets/docs/170905316_FinalReport.pdf"
         tagline: |
           Built a minimum viable product of a patient engagement service that empowers senior citizens to self report their health information while collaborating with [Mr. Parth Srivastav](https://www.linkedin.com/in/parth-srivastav/), CTO.
           - Developed a cross-platform front-end using React for web browsers and React Native for mobile app to ensure responsiveness across devices.
@@ -274,7 +327,6 @@ coursework-projects:
             url: "https://jeet1912.github.io/assets/docs/170905316_FinalReport.pdf"
 
       - title: Dystopia Pet Adoption App
-        link: "https://github.com/KevMamba/Dystopia-Animal-Adoption-App"
         tagline: |
           Dystopia is a student-run animal welfare organisation. Through this app, they aimed to eliminate the need of a breeder/middleman.
           - Collaborated with developers and designers to design and implement the application from scratch following a layered architecture.
@@ -284,55 +336,6 @@ coursework-projects:
         links:
           - type: github
             url: "https://github.com/KevMamba/Dystopia-Animal-Adoption-App"
-
-      - title: Open Source Contribution
-        link: "https://github.com/toystars/react-native-multiple-select/pull/171"
-        tagline: |
-          - Added opt-in selected-count display to `react-native-multiple-select` (500k+ downloads), keeping backward compatibility for existing apps.
-          
-            [[Pull Request]](https://github.com/toystars/react-native-multiple-select/pull/171)
-
-      - title: DataCamp Data Scientist
-        link: "https://github.com/jeet1912/Datacamp"
-        tagline: |
-          - Completed 6 projects, 23 courses, and 3 assessments; archived notebooks and exercises in Python.
-          
-            [[Code]](https://github.com/jeet1912/Datacamp)
-
-      - title: Competitive Programming
-        link: "https://github.com/jeet1912/leetcode"
-        tagline: |
-          - Solved LeetCode competitive programming coursework in Python with pattern-focused implementations.
-          
-            [[Code]](https://github.com/jeet1912/leetcode)
-        
-      - title: Machine Learning at Verzeo
-        link: "https://github.com/jeet1912/Verzeo-Machine-Learning-Internship"
-        tagline: |
-          - Conducted data wrangling and exploratory analysis across four ML mini-projects; documented results and code.
-            
-            [[Code]](https://github.com/jeet1912/Verzeo-Machine-Learning-Internship)
-                  
-      - title: Waabec Hybrid App
-        link: "https://drive.google.com/file/d/1EipCdSwbyxxWABQslkiSeq22mOaJLvv2/view?usp=share_link"
-        tagline: |
-          - Feasibility study for a hybrid language-training app serving sector-specific curricula across Spain.
-          
-            [[Presentation]](https://drive.google.com/file/d/1EipCdSwbyxxWABQslkiSeq22mOaJLvv2/view?usp=share_link)
-
-      - title: Covid-19 Dashboard
-        link: "https://github.com/jeet1912/Covid-19-Dashboard-using-REST-API"
-        tagline: |
-          - A dashboard that shows the number of active Covid cases, deaths and patients recovered using REST protocol to fetch data from [[here]](https://ncov2019-admin.firebaseapp.com) with offline support via shared preferences and structured error handling.
-            
-            [[Code]](https://github.com/jeet1912/Covid-19-Dashboard-using-REST-API)
-                            
-      - title: Minor in Computational Mathematics
-        link: "https://github.com/jeet1912/CM"
-        tagline: |
-          - Implemented time-series smoothing and ANOVA experiments for coursework in applied statistics and experimental design.
-          
-            [[Code]](https://github.com/jeet1912/CM)
 
 
 #skills:
