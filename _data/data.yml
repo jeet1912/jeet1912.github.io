@@ -46,12 +46,12 @@ career-profile:
       
 education:
     - degree: M.S in Artificial Intelligence 
-      university: New Jersey Institute of Technology
-      time: Jan 2024 - Dec 2025, CGPA 3.86/4
+      university: New Jersey Institute of Technology, CGPA 3.86/4
+      time: Jan 2024 - Dec 2025 
       details: 
     - degree: B.Tech in Computer Science and Engineering
-      university: Manipal Academy of Higher Education
-      time: July 2017 - Aug 2021, CGPA 3.34/4
+      university: Manipal Academy of Higher Education, CGPA 3.34/4
+      time: July 2017 - Aug 2021
       details: 
     - degree: Senior Secondary, TSBE
       university: FIITJEE Junior College, Score 94.8%
