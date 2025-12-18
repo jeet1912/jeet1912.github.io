@@ -265,6 +265,28 @@ li {
     }
   }
 
+  .project-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .project-links a {
+    display: inline-block;
+    padding: 2px 8px;
+    margin-right: 6px;
+    border: 1px solid $accent-color;
+    border-radius: 4px;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: $header-navy;
+    &:hover {
+      background-color: lighten($smoky-white, 4%);
+      color: darken($header-navy, 10%);
+    }
+  }
+
   .publication-title {
     font-size: 16px;
     font-weight: 600;

@@ -117,24 +117,35 @@ volunteer:
 
 publications:
     title: Publications & Manuscripts
+    tagline: |
+      Research outputs with code and preprints.
     papers:
       - title: "HyperMedDiff-Risk: Hyperbolic Graph Diffusion for Clinical Risk Prediction"
         link: "https://github.com/jeet1912/hyperbolic-ehr-diffusion/blob/main/reports/DS_683.pdf"
         authors: A Sahdev
-        tagline: |
-          [[Code]](https://github.com/jeet1912/hyperbolic-ehr-diffusion) [[Manuscript]](https://github.com/jeet1912/hyperbolic-ehr-diffusion/blob/main/reports/DS_683.pdf) [[Presentation]](https://github.com/jeet1912/hyperbolic-ehr-diffusion/blob/main/reports/presentation.pdf)
+        links:
+          - type: github
+            url: "https://github.com/jeet1912/hyperbolic-ehr-diffusion"
+          - type: pdf
+            url: "https://github.com/jeet1912/hyperbolic-ehr-diffusion/blob/main/reports/DS_683.pdf"
+          - type: ppt
+            url: "https://github.com/jeet1912/hyperbolic-ehr-diffusion/blob/main/reports/presentation.pdf"
 
       - title: Statistical Analysis of Sentence Structures through ASCII, Lexical Alignment and PCA
         link: "https://doi.org/10.48550/arXiv.2503.10470"
         authors: A Sahdev
-        tagline: |
-          [[Notebook]](https://github.com/jeet1912/ms/blob/main/ds680/finalTermProject/finalNotebook.ipynb) [[arXiv]](https://arxiv.org/abs/2503.10470)
+        links:
+          - type: notebook
+            url: "https://github.com/jeet1912/ms/blob/main/ds680/finalTermProject/finalNotebook.ipynb"
+          - type: pdf
+            url: "https://arxiv.org/abs/2503.10470"
 
       - title: Compound Artificial Intelligence Systems
         link: "https://github.com/jeet1912/ms/blob/main/ds677/research/abhijeet_sahdev_finalTermResearch.pdf"
         authors: A Sahdev
-        tagline: |
-          [[Report]](https://github.com/jeet1912/ms/blob/main/ds677/research/abhijeet_sahdev_finalTermResearch.pdf)
+        links:
+          - type: pdf
+            url: "https://github.com/jeet1912/ms/blob/main/ds677/research/abhijeet_sahdev_finalTermResearch.pdf"
 
 research-projects:
     title: Selected Systems & Research Projects
@@ -144,8 +155,11 @@ research-projects:
         tagline: |
           - Implemented a minimal GPT-2 in C++ with custom autograd, CUDA kernels, tokenizer/dataloader, and Adam optimizer to study transformer internals.
           - Extended to distributed training with MPI data parallelism, gradient allreduce, and rank-aware batching across multi-GPU nodes (67× train, 14× inference speedups vs CPU baseline).
-            
-            [[Code]](https://github.com/felixg318/HPC-GPT2) [[Report]](https://github.com/jeet1912/ms/blob/main/cs698/project/docs/project.pdf)
+        links:
+          - type: github
+            url: "https://github.com/felixg318/HPC-GPT2"
+          - type: pdf
+            url: "https://github.com/jeet1912/ms/blob/main/cs698/project/docs/project.pdf"
 
       - title: GIT-base Ablation Study
         link: "https://github.com/jeet1912/ms/blob/main/ds677_2/project/GITAblationStudy.pdf"
@@ -153,24 +167,33 @@ research-projects:
           - Engineered and preprocessed MIMIC-CXR-JPG v2.1.0 (377K+ chest X-rays, 227K reports) via GCP BigQuery and CheXpert, generating structured mini-reports and building a balanced 66K+ study dataset with robust stratified splits.
           - Implemented and benchmarked GIT-base vision–language architecture under Full Fine-Tuning vs. LoRA (vision-only, text-only), designing a resource-optimized training strategy that reduced GPU memory usage by 50% and training time by 67%.
           - Demonstrated 5.8× improvement in BLEU with LoRA Text-Only over full fine-tuning, validating LoRA as a parameter-eﬃcient and domain-adaptive strategy for medical vision–language tasks.
-            
-            [[Code]](https://github.com/jeet1912/gitbase_ablationStudy) [[Report]](https://github.com/jeet1912/ms/blob/main/ds677_2/project/GITAblationStudy.pdf)
+        links:
+          - type: github
+            url: "https://github.com/jeet1912/gitbase_ablationStudy"
+          - type: pdf
+            url: "https://github.com/jeet1912/ms/blob/main/ds677_2/project/GITAblationStudy.pdf"
 
       - title: Sepsis Treatment with Deep Reinforcement Learning
         link: "https://github.com/jeet1912/ms/blob/main/ds669/project/FinalReportGroup1.pdf"
         tagline: |
           - Implemented WD3QNE for ICU sepsis treatment, replicating published results across 8 experiments with 43 vs. 45 feature sets on MIMIC-III.
           - Trained agents over 100 epochs, producing structured 5×5 fluid/vasopressor policies aligned with clinician behavior.
-            
-            [[Code]](https://github.com/tblicharznjit/DS669_Group1) [[Report]](https://github.com/jeet1912/ms/blob/main/ds669/project/FinalReportGroup1.pdf)
+        links:
+          - type: github
+            url: "https://github.com/tblicharznjit/DS669_Group1"
+          - type: pdf
+            url: "https://github.com/jeet1912/ms/blob/main/ds669/project/FinalReportGroup1.pdf"
 
       - title: Distributed Ridge Regression on Healthcare Data using Hadoop MapReduce
         link: "https://github.com/jeet1912/ms/blob/main/ds644/midTermProj/sahdev_abhijeet_midtermproj.pdf"
         tagline: |
           - Designed and implemented a distributed ML pipeline for healthcare cost prediction on a multi-node AWS cluster using Hadoop MapReduce, training Ridge Regression with K-fold CV via distributed sufficient-statistics aggregation.
           - Reduced network overhead with combiners, solved regularized normal equations in reducers, and computed per-fold R² in a dedicated evaluation job (mean R² ≈ 0.786 across 5 folds).
-            
-            [[Code]](https://github.com/jeet1912/sparcs) [[Report]](https://github.com/jeet1912/ms/blob/main/ds644/midTermProj/sahdev_abhijeet_midtermproj.pdf)
+        links:
+          - type: github
+            url: "https://github.com/jeet1912/sparcs"
+          - type: pdf
+            url: "https://github.com/jeet1912/ms/blob/main/ds644/midTermProj/sahdev_abhijeet_midtermproj.pdf"
 
 paper-presentations:
     title: Paper Presentations & Reviews
@@ -179,15 +202,17 @@ paper-presentations:
         link: "https://docs.google.com/presentation/d/1PKY3zVSnE5a5KNB8qGLByKOMsZ0SnIH9/edit?usp=sharing&ouid=112379317695011195689&rtpof=true&sd=true"
         tagline: |
           - Presentation on DEPLOYR, a framework for deploying custom real-time ML models into EMR, with focus on big-data grounding and deployment.
-            
-            [[Presentation]](https://docs.google.com/presentation/d/1PKY3zVSnE5a5KNB8qGLByKOMsZ0SnIH9/edit?usp=sharing&ouid=112379317695011195689&rtpof=true&sd=true)
+        links:
+          - type: ppt
+            url: "https://docs.google.com/presentation/d/1PKY3zVSnE5a5KNB8qGLByKOMsZ0SnIH9/edit?usp=sharing&ouid=112379317695011195689&rtpof=true&sd=true"
       
       - title: LIME
         link: "https://docs.google.com/presentation/d/1eQfSmDas-72Xghj5IUkjnDy16ubLlI3jkmByYEaNCp0/edit#slide=id.p"
         tagline: |
           - Paper review of "Why Should I Trust You?": designed an experiment and presentation on LIME explanations using a story-driven example.
-            
-            [[Presentation]](https://docs.google.com/presentation/d/1eQfSmDas-72Xghj5IUkjnDy16ubLlI3jkmByYEaNCp0/edit#slide=id.p)
+        links:
+          - type: ppt
+            url: "https://docs.google.com/presentation/d/1eQfSmDas-72Xghj5IUkjnDy16ubLlI3jkmByYEaNCp0/edit#slide=id.p"
 
 coursework-projects:
     title: Coursework & Exploratory Projects
@@ -197,16 +222,22 @@ coursework-projects:
         tagline: |
           - Performed data mining in benchmarking unsupervised ML algorithms such as K-Means and Hierarchical Agglomerative Clustering on GenAI-generated datasets with outliers removed using IQR to enhance pattern discovery.
           - Achieved top silhouette scores with K-Means on Dataset 1 (0.359, 3 clusters) and Dataset 2 (0.625, 2 clusters), and with Agglomerative on Dataset 3 (0.984, 2 clusters).
-            
-            [[Notebook]](https://colab.research.google.com/drive/1b25FRj32ufl3n_4CvZTKIYhe6uLAqokW?usp=sharing) [[Report]](https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/abhijeet_sahdev_finalTermProject.pdf)
+        links:
+          - type: notebook
+            url: "https://colab.research.google.com/drive/1b25FRj32ufl3n_4CvZTKIYhe6uLAqokW?usp=sharing"
+          - type: pdf
+            url: "https://github.com/jeet1912/ms/blob/main/cs634/finalTermProject/abhijeet_sahdev_finalTermProject.pdf"
 
       - title: Analyzing OxCGRT
         link: "https://docs.google.com/presentation/d/1yXDd3kXt9yCN37PjIVS4lxPcyhPHw4ys/edit?usp=sharing&ouid=112379317695011195689&rtpof=true&sd=true"
         tagline: |
           - Conducted data engineering, data wrangling and cleaning appending suitable columns with appropriate imputation strategies followed by exploratory data analysis on a dataset with 56 columns and 202,760 tuples.
           - Curated experiments through research for two supervised machine learning approaches multivariate linear regression on daily mortality rates, achieving an R2 score of 0.974 and MSE of 0.0003 and daily policy effectiveness using a decision tree classifier with an F1 score of 0.984.
-            
-            [[Code]](https://github.com/jeet1912/aoxcgrt) [[Report]](https://github.com/jeet1912/ms/blob/main/cs670/Project/AI_FINAL_PROJECT.pdf)
+        links:
+          - type: github
+            url: "https://github.com/jeet1912/aoxcgrt"
+          - type: pdf
+            url: "https://github.com/jeet1912/ms/blob/main/cs670/Project/AI_FINAL_PROJECT.pdf"
 
       - title: Sentiment Analysis on Movie Review Dataset
         link: "https://github.com/jeet1912/ms/blob/main/ds680/assignments/DS680_HW3.ipynb"
@@ -214,15 +245,19 @@ coursework-projects:
           - Conducted binary sentiment classification on The Large Movie Review Dataset developed by Stanford NLP research group. This dataset provides 25,000 movie reviews each for training and testing, along with additional unlabeled data. 
           - For preprocessing, first, each tuple under text was converted to lowercase to extract word tokens. These tokens were filtered to remove stopwords and maintain alphabets as per the language of the text selected, i.e. English. These tokens were shortened to their root words using lemmatization. These set of tokens are used to create a Bag Of Words of a trigram model using the train set, which was used to transform the test set. 
           - Classification reports of an MLP classifier was compared with a SGD model, identifying that MLP outperformed SGD on all metrics except recall for positive reviews.
-            
-            [[Notebook]](https://github.com/jeet1912/ms/blob/main/ds680/assignments/DS680_HW3.ipynb)
+        links:
+          - type: notebook
+            url: "https://github.com/jeet1912/ms/blob/main/ds680/assignments/DS680_HW3.ipynb"
 
       - title: Morrish Health Services
         link: "https://github.com/jeet1912/mhsAppForCS631"
         tagline: |
           - Implemented a healthcare management system with CRUD operations for each entity along with specific management and reporting views in Django and MySQL with a user guide for clinical workflows.
-            
-            [[Code]](https://github.com/jeet1912/mhsAppForCS631) [[User Guide]](https://github.com/jeet1912/mhsAppForCS631/blob/main/user_guide.pdf)
+        links:
+          - type: github
+            url: "https://github.com/jeet1912/mhsAppForCS631"
+          - type: pdf
+            url: "https://github.com/jeet1912/mhsAppForCS631/blob/main/user_guide.pdf"
 
       - title: MyHealthToday Patient Engagement MVP
         link: "https://jeet1912.github.io/assets/docs/170905316_FinalReport.pdf"
@@ -234,8 +269,9 @@ coursework-projects:
           - Standardised formats of records in DynamoDB table using a script, preventing run-time errors in the future.
           - Developed microservices using serverless AWS Lambda functions to create a scalable backend for the mobile and Alexa application.
           - Designed, coded and deployed RESTful APIs using SAM CLI and AWS CI/CD tools, reducing resource creation time at client side by 16%.
-
-            [[Report]](https://jeet1912.github.io/assets/docs/170905316_FinalReport.pdf)
+        links:
+          - type: pdf
+            url: "https://jeet1912.github.io/assets/docs/170905316_FinalReport.pdf"
 
       - title: Dystopia Pet Adoption App
         link: "https://github.com/KevMamba/Dystopia-Animal-Adoption-App"
@@ -245,8 +281,9 @@ coursework-projects:
           - Implemented clean, responsive UI using Flutter widgets and packages from pub.dev, closely adhering to design specifications.
           - Developed user authentication and SSO using Firebase Auth, with reactive state management via Provider.
           - Prototyped real-time user communication using Cloud Firestore for in-app chat functionality.
-
-            [[Code]](https://github.com/KevMamba/Dystopia-Animal-Adoption-App)
+        links:
+          - type: github
+            url: "https://github.com/KevMamba/Dystopia-Animal-Adoption-App"
 
       - title: Open Source Contribution
         link: "https://github.com/toystars/react-native-multiple-select/pull/171"

@@ -19,11 +19,23 @@
 
   {% for publication in publications.papers %}
   <div class="item">
-    {% if publication.link %}
-      <div class="publication-title"><a href="{{ publication.link }}">{{ publication.title }}</a></div>
-    {% else %}
-      <div class="publication-title">{{ publication.title }}</div>
-    {% endif %}
+    <div class="publication-row">
+      {% if publication.link %}
+        <div class="publication-title"><a href="{{ publication.link }}">{{ publication.title }}</a></div>
+      {% else %}
+        <div class="publication-title">{{ publication.title }}</div>
+      {% endif %}
+      <span class="project-links">
+        {% if publication.links %}
+          {% for l in publication.links %}
+            {% if l.type == "github" %}<a href="{{ l.url }}"><i class="fab fa-github"></i> Code</a>{% endif %}
+            {% if l.type == "pdf" %}<a href="{{ l.url }}"><i class="fas fa-file-pdf"></i> PDF</a>{% endif %}
+            {% if l.type == "ppt" %}<a href="{{ l.url }}"><i class="fas fa-file-powerpoint"></i> Slides</a>{% endif %}
+            {% if l.type == "notebook" %}<a href="{{ l.url }}"><i class="fas fa-book-open"></i> Notebook</a>{% endif %}
+          {% endfor %}
+        {% elsif publication.link %}<a href="{{ publication.link }}"><i class="fas fa-file-pdf"></i> PDF</a>{% endif %}
+      </span>
+    </div>
     <div class="publication-authors">{{ publication.authors }}</div>
     {% if publication.conference %}
     <div class="publication-conference">{{ publication.conference }}</div>
