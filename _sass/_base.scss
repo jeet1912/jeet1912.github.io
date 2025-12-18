@@ -171,13 +171,17 @@ li {
     margin-bottom: 42px;
   }
   .research-figure {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 24px 0 12px 0;
     .figure-text {
+      width: 100%;
+      text-align: left;
       margin-bottom: 12px;
     }
     figure {
-      width: min(60%, 560px);
+      width: min(70%, 640px);
       margin: 0 auto;
     }
   }
