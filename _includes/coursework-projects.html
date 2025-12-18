@@ -3,10 +3,6 @@
 <section class="section coursework-projects-section">
 
   <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-book-open fa-stack-1x fa-inverse"></i>
-    </span>
     {{ coursework.title }}
   </h2>
 
@@ -22,7 +18,7 @@
       </span>
 
       {% if project.tagline %}
-      - <span class="project-tagline" align="justify">{{ project.tagline | markdownify }}</span>
+      <div class="project-tagline" align="justify">{{ project.tagline | markdownify }}</div>
       {% endif %}
 
     </div><!--//item-->

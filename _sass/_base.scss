@@ -25,13 +25,12 @@ h6 {
 a {
   color: $header-navy;
   font-weight: 600;
-  text-decoration: underline;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 0.18em;
-  text-decoration-color: rgba($header-navy, 0.6);
+  text-decoration: none;
   transition: color 0.2s ease, text-decoration-color 0.2s ease;
   &:hover {
     color: darken($accent-color, 8%);
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
     text-decoration-color: darken($accent-color, 8%);
   }
   &:focus {
@@ -40,12 +39,23 @@ a {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.6;
+  margin: 0 0 0.9em 0;
+}
+
+ul,
+ol {
+  margin: 0 0 0.9em 1.2em;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.55em;
 }
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: 7.5fr 2.5fr;
   background: $smoky-white;
   max-width: 1000px;
   margin: 0 auto;
@@ -54,7 +64,7 @@ p {
 }
 
 .sidebar-wrapper {
-  grid-column: span 3;
+  grid-column: 2;
   order: 2;
   background: $content-bg;
   color: $header-navy;
@@ -77,8 +87,8 @@ p {
     color: $header-navy;
   }
   .name {
-    font-size: 32px;
-    font-weight: 900;
+    font-size: 28px;
+    font-weight: 800;
     margin-top: 0;
     margin-bottom: 10px;
     color: $header-navy;
@@ -96,7 +106,7 @@ p {
 
   .avatar {
     //used for profile image
-    max-width: 100px;
+    max-width: 86px;
     margin-bottom: 15px;
     border: 0px solid $divider;
     border-radius: 8px;
@@ -106,10 +116,17 @@ p {
     .fas,
     .fab,
     .far {
-      margin-right: 5px;
-      font-size: 18px;
+      margin-right: 8px;
+      font-size: 16px;
       vertical-align: middle;
-      color: $header-navy;
+      color: #fff;
+      background: $header-navy;
+      border-radius: 50%;
+      width: 26px;
+      height: 26px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
     }
     li {
       margin-bottom: 15px;
@@ -121,14 +138,14 @@ p {
   .container-block {
     padding: 30px;
   }
-  .container-block-title {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 15px;
-    color: $header-navy;
-  }
+.container-block-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: $header-navy;
+}
   .degree {
     font-size: 14px;
     margin-top: 0;
@@ -155,7 +172,7 @@ p {
   }
   .languages-container {
     .lang-desc {
-      color: rgba(256, 256, 256, 0.6);
+      color: $text-grey;
     }
   }
 
@@ -180,8 +197,8 @@ p {
   }
 }
 
-  .main-wrapper {
-  grid-column: span 7;
+.main-wrapper {
+  grid-column: 1;
   background: $content-bg;
   padding: 60px;
   .section-title {
@@ -203,20 +220,29 @@ p {
     }
   }
   .section {
-    margin-bottom: 60px;
+    margin-bottom: 48px;
   }
   p a,
-  li a,
-  .project-title a {
-    color: $accent-color;
+  li a {
+    color: $header-navy;
     text-decoration: underline;
+    text-underline-offset: 0.18em;
+    text-decoration-color: rgba($header-navy, 0.6);
+    &:hover {
+      color: darken($accent-color, 8%);
+      text-decoration-color: darken($accent-color, 8%);
+    }
   }
 
   .experiences-section,
   .educations-section {
     .item {
-      margin-bottom: 30px;
+      margin-bottom: 36px;
     }
+  }
+  .campus-section .item,
+  .volunteer-section .item {
+    margin-bottom: 32px;
   }
   .upper-row {
     position: relative;
@@ -245,23 +271,32 @@ p {
 
   .project-title {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 0;
     margin-bottom: 5px;
     color: $header-navy;
+    a {
+      color: $header-navy;
+      text-decoration: none;
+      &:hover {
+        color: darken($accent-color, 8%);
+        text-decoration: underline;
+        text-decoration-color: darken($accent-color, 8%);
+      }
+    }
   }
   .projects-section {
     .intro {
       margin-bottom: 30px;
     }
     .item {
-      margin-bottom: 15px;
+      margin-bottom: 24px;
     }
   }
 
   .publication-title {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     color: $text-color;
     margin-bottom: 1px;
   }
@@ -275,7 +310,16 @@ p {
       margin-bottom: 30px;
     }
     .item {
-      margin-bottom: 15px;
+      margin-bottom: 22px;
+    }
+    .publication-title a {
+      color: $header-navy;
+      text-decoration: none;
+      &:hover {
+        color: darken($accent-color, 8%);
+        text-decoration: underline;
+        text-decoration-color: darken($accent-color, 8%);
+      }
     }
   }
 }

@@ -3,10 +3,6 @@
 <section class="section paper-presentations-section">
 
   <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
-    </span>
     {{ papers.title }}
   </h2>
 
@@ -22,7 +18,7 @@
       </span>
 
       {% if item.tagline %}
-      - <span class="project-tagline" align="justify">{{ item.tagline | markdownify }}</span>
+      <div class="project-tagline" align="justify">{{ item.tagline | markdownify }}</div>
       {% endif %}
 
     </div><!--//item-->
