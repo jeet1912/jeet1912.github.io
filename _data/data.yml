@@ -210,7 +210,7 @@ projects:
         tagline: |
           - Designed and implemented a distributed machine learning pipeline for healthcare cost prediction using Hadoop MapReduce on a multi-node AWS cluster. The system processes the SPARCS Hospital Inpatient Discharges dataset (≈1.9 GB after preprocessing) and trains a Ridge Regression model with K-fold cross-validation, computing model parameters and evaluation metrics entirely in a distributed setting.
           - The implementation reformulates linear regression as distributed sufficient-statistics aggregation, where mappers compute partial Gram matrices **(XᵀX)** and cross terms **(Xᵀy)**, combiners reduce network overhead, and reducers solve the regularized normal equations. A separate evaluation job computes **R²** metrics per fold using MapReduce.
-          - The pipeline demonstrates how classical ML algorithms can be translated into fault-tolerant, large-scale data-parallel workflows, achieving stable performance (mean R² ≈ 0.786 across 5 folds) on real-world clinical data (SPARCS).
+          - The pipeline demonstrates how classical ML algorithms can be translated into fault-tolerant, large-scale data-parallel workflows, achieving stable performance (mean R² ≈ 0.786 across 5 folds) on real-world clinical data.
  
             [[Code Repository]](https://github.com/jeet1912/sparcs) [[Report]](https://github.com/jeet1912/ms/blob/main/ds644/midTermProj/sahdev_abhijeet_midtermproj.pdf) 
 
@@ -234,7 +234,7 @@ projects:
             [[Code Repository]](https://github.com/jeet1912/gitbase_ablationStudy) [[Report]](https://github.com/jeet1912/ms/blob/main/ds677_2/project/GITAblationStudy.pdf)
 
       - title: Sepsis Treatment with Deep Reinforcement Learning
-        link: "https://github.com/jeet1912/ms/blob/main/ds699/project/FinalReportGroup1.pdf"
+        link: "https://github.com/jeet1912/ms/blob/main/ds669/project/FinalReportGroup1.pdf"
         tagline: |
           - Implemented a reinforcement learning framework (WD3QNE) for ICU sepsis treatment, replicating published results across 8 experiments with 43 vs. 45 feature sets.
           - Processed and curated MIMIC-III data (14,505 patients, 344,800 records) using hierarchical time-aware imputation and Sepsis-3 cohort selection.
