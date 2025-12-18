@@ -1,0 +1,32 @@
+{% assign papers = site.data.data['paper-presentations'] %}
+{% if papers %}
+<section class="section paper-presentations-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ papers.title }}
+  </h2>
+
+  {% for item in papers.items %}
+    <div class="item">
+
+      <span class="project-title">
+        {% if item.link %}
+        <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
+        {% else %}
+        {{ item.title }}
+        {% endif %}
+      </span>
+
+      {% if item.tagline %}
+      - <span class="project-tagline" align="justify">{{ item.tagline | markdownify }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
