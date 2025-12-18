@@ -23,12 +23,12 @@ h6 {
 }
 
 a {
-  color: $accent-color;
+  color: $header-navy;
   font-weight: 600;
   text-decoration: underline;
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.18em;
-  text-decoration-color: rgba($accent-color, 0.8);
+  text-decoration-color: rgba($header-navy, 0.6);
   transition: color 0.2s ease, text-decoration-color 0.2s ease;
   &:hover {
     color: darken($accent-color, 8%);
@@ -56,33 +56,35 @@ p {
 .sidebar-wrapper {
   grid-column: span 3;
   order: 2;
-  background: $theme-color;
-  color: #fff;
+  background: $content-bg;
+  color: $header-navy;
+  border-left: 1px solid $divider;
+  @include box-shadow(-6px 0 12px rgba(0, 0, 0, 0.04));
   a {
-    color: #fff;
+    color: $header-navy;
     text-decoration: none;
     &:hover {
-      color: lighten($accent-color, 10%);
+      color: $accent-color;
       text-decoration: underline;
-      text-decoration-color: lighten($accent-color, 10%);
+      text-decoration-color: $accent-color;
       text-underline-offset: 0.18em;
     }
   }
   .profile-container {
     padding: 30px;
-    //background: darken($theme-color, 10%);
-    background: rgba(0, 0, 0, 0.2);
+    background: $content-bg;
     text-align: center;
-    color: #fff;
+    color: $header-navy;
   }
   .name {
     font-size: 32px;
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 10px;
+    color: $header-navy;
   }
   .tagline {
-    color: rgba(256, 256, 256, 0.6);
+    color: $text-grey;
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
@@ -96,9 +98,9 @@ p {
     //used for profile image
     max-width: 100px;
     margin-bottom: 15px;
-    border: 0px solid #fff;
-    border-radius: 100%;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 0px solid $divider;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
   }
   .contact-list {
     .fas,
@@ -107,7 +109,7 @@ p {
       margin-right: 5px;
       font-size: 18px;
       vertical-align: middle;
-      color: $accent-color;
+      color: $header-navy;
     }
     li {
       margin-bottom: 15px;
@@ -125,6 +127,7 @@ p {
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 15px;
+    color: $header-navy;
   }
   .degree {
     font-size: 14px;
@@ -177,7 +180,7 @@ p {
   }
 }
 
-.main-wrapper {
+  .main-wrapper {
   grid-column: span 7;
   background: $content-bg;
   padding: 60px;
@@ -193,7 +196,7 @@ p {
     margin-top: 0;
     margin-bottom: 20px;
     .fa-stack-2x {
-      color: $theme-color;
+      color: $header-navy;
     }
     .fa-stack-1x {
       color: $accent-color;
@@ -245,7 +248,7 @@ p {
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 5px;
-    color: darken($theme-color, 15%);
+    color: $header-navy;
   }
   .projects-section {
     .intro {
