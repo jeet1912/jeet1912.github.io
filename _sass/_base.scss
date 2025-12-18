@@ -112,22 +112,22 @@ li {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
   }
-  .contact-list {
-    .fas,
-    .fab,
-    .far {
-      margin-right: 8px;
-      font-size: 16px;
-      vertical-align: middle;
-      color: #fff;
-      background: $header-navy;
-      border-radius: 50%;
-      width: 26px;
-      height: 26px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-    }
+.contact-list {
+  .fas,
+  .fab,
+  .far {
+    margin-right: 8px;
+    font-size: 16px;
+    vertical-align: middle;
+    color: #fff;
+    background: $header-navy;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
     li {
       margin-bottom: 15px;
       &:last-child {
@@ -159,15 +159,16 @@ li {
       }
     }
     .meta {
-      color: rgba(256, 256, 256, 0.6);
+      color: $text-grey;
       font-weight: 500;
       margin-bottom: 0px;
       margin-top: 0;
     }
     .time {
-      color: rgba(256, 256, 256, 0.6);
+      color: $text-grey;
       font-weight: 500;
       margin-bottom: 0px;
+      text-decoration: none;
     }
   }
   .languages-container {
@@ -239,6 +240,9 @@ li {
     .item {
       margin-bottom: 36px;
     }
+  }
+  .research-section .item {
+    margin-bottom: 42px;
   }
   .campus-section .item,
   .volunteer-section .item {

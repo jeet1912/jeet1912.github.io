@@ -58,22 +58,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Graduate student in <b>Artificial Intelligence</b> at <b>New Jersey Institute of Technology’s Ying Wu College of Computing</b>, Newark, USA. 
-      I completed my undergraduate degree in <b>Computer Science and Engineering</b> with a minor in <b>Computational Mathematics</b> from 
-      <b>Manipal Institute of Technology, India</b>.
-
-      My work focuses on <b>geometric and generative machine learning</b>, with an emphasis on diffusion and flow-based models, 
-      graph neural networks, and non-Euclidean representations for structured biomedical data. 
-      I am particularly interested in how <b>latent geometry and transport dynamics</b> govern structure preservation, interpretability, 
-      and robustness in large-scale clinical prediction systems.
-
-      I build models end-to-end, combining theoretical design with large-scale empirical validation and systems-level implementation 
-      (CUDA/MPI). My goal is to develop machine learning systems that are both <b>mathematically grounded</b> and <b>clinically meaningful</b>.
-
-      <b>Primary Research Interests</b>: Geometric deep learning, diffusion and flow models, graph-based clinical machine learning.  
-      <b>Secondary Interests</b>: HCI, interpretable AI, structured generative modeling, High-performance ML systems.
-          
-      [[MOOCs]](https://jeet1912.github.io/assets/docs/moocs.pdf) [[Certificates]](https://jeet1912.github.io/assets/docs/certificates.pdf)
+      Graduate student in <b>Artificial Intelligence</b> at <b>New Jersey Institute of Technology</b>. I work on <b>geometric and generative models for structured clinical data</b>, focusing on hyperbolic diffusion/flow models and graph encoders for EHR and ontology-grounded risk prediction. I build end-to-end systems (CUDA/MPI) and validate them on MIMIC-scale datasets, aiming for methods that are both <b>mathematically grounded</b> and <b>clinically meaningful</b>. My goal is to ship research-grade models that preserve clinical hierarchy, remain interpretable, and scale reliably.
       
 education:
     - degree: M.S in Artificial Intelligence 
@@ -112,11 +97,9 @@ research-experience:
         company: Immersive Creation Lab, NJIT
         details: |
           Working on a web-based implementation of 3D Copilot under [Prof. Lei Zhang](https://raynez.art/bio/).
-            - Building a browser-native 3D copilot for controllable scene generation, integrating React, react-three-fiber, Sketchfab retrieval, and an LLM-driven staging and commit workflow.
-            - Developed a GLB optimization and streaming pipeline (gltf-transform, Draco, texture compression), reducing 3D asset load times by 13% for interactive editing.
-            - Designed a structured prompting and tool-calling specification (1.6K+ lines) encoding spatial constraints, collision checks, quadrant heuristics, and safe animation rules.
-            - Prototyping GNN-based scene representations to model relational and geometric structure for controllable 3D generation.
-            - Supporting a production-grade UIST submission and longitudinal user studies on spatially grounded human–AI interfaces.
+            - Building a browser-native 3D copilot for controllable scene generation with React and react-three-fiber, backed by an LLM-driven staging and commit workflow.
+            - Developed GLB optimization and streaming (gltf-transform, Draco, texture compression), cutting 3D asset load times by 13% for interactive editing.
+            - Prototyping GNN-based scene representations and structured tool-calling specs (1.6K+ lines) to encode spatial constraints, collision checks, and safe animation rules.
 
 campus-experience:
     title: Campus & Service Roles
@@ -162,34 +145,30 @@ publications:
         authors: A Sahdev
 
 research-projects:
-    title: Research & Systems Projects
+    title: Selected Systems & Research Projects
     items:
       - title: Distributed Ridge Regression on Healthcare Data using Hadoop MapReduce
         link: "https://github.com/jeet1912/ms/blob/main/ds644/midTermProj/sahdev_abhijeet_midtermproj.pdf"
         tagline: |
-          - Designed and implemented a distributed ML pipeline for healthcare cost prediction using Hadoop MapReduce on a multi-node AWS cluster, training Ridge Regression with K-fold CV via distributed sufficient-statistics aggregation.
-          - Reduced network overhead with combiners, solved regularized normal equations in reducers, and computed per-fold R² in a dedicated evaluation job.
-          - Achieved stable performance (mean R² ≈ 0.786 across 5 folds) on SPARCS inpatient discharges.
+          - Designed and implemented a distributed ML pipeline for healthcare cost prediction on a multi-node AWS cluster using Hadoop MapReduce, training Ridge Regression with K-fold CV via distributed sufficient-statistics aggregation.
+          - Reduced network overhead with combiners, solved regularized normal equations in reducers, and computed per-fold R² in a dedicated evaluation job (mean R² ≈ 0.786 across 5 folds).
 
       - title: Distributed GPT-2 
         link: "https://github.com/jeet1912/ms/blob/main/cs698/project/docs/project.pdf"
         tagline: |
           - Implemented a minimal GPT-2 in C++ with custom autograd, CUDA kernels, tokenizer/dataloader, and Adam optimizer to study transformer internals.
-          - Extended to distributed training with MPI data parallelism, gradient allreduce, and rank-aware batching across multi-GPU nodes.
-          - Achieved 67× training and 14× inference speedups (226s vs. 15,264s CPU baseline) while maintaining model quality.
+          - Extended to distributed training with MPI data parallelism, gradient allreduce, and rank-aware batching across multi-GPU nodes (67× train, 14× inference speedups vs CPU baseline).
 
-      - title: GIT-base Ablation Study
-        link: "https://github.com/jeet1912/ms/blob/main/ds677_2/project/GITAblationStudy.pdf"
+      - title: MyHealthToday Patient Engagement MVP
+        link: "https://jeet1912.github.io/assets/docs/170905316_FinalReport.pdf"
         tagline: |
-          - Engineered and preprocessed MIMIC-CXR-JPG v2.1.0 (377K+ images, 227K reports) with BigQuery and CheXpert, building a balanced 66K+ study dataset.
-          - Benchmarked GIT-base under full fine-tuning vs. LoRA (vision-only, text-only), reducing GPU memory by 50% and training time by 67%.
-          - Demonstrated 5.8× BLEU improvement with LoRA text-only over full fine-tuning for domain adaptation.
+          - Built a cross-platform React/React Native MVP with AWS Lambda microservices and SAM-deployed REST APIs for senior citizen self-reporting; standardized DynamoDB records and added test suites.
+          - Reduced client provisioning time by 16% via CI/CD and shipped web/mobile front-ends for patient engagement.
 
       - title: Sepsis Treatment with Deep Reinforcement Learning
         link: "https://github.com/jeet1912/ms/blob/main/ds669/project/FinalReportGroup1.pdf"
         tagline: |
-          - Implemented WD3QNE for ICU sepsis treatment, replicating published results across 8 experiments with 43 vs. 45 feature sets.
-          - Curated MIMIC-III data (14,505 patients, 344,800 records) with hierarchical time-aware imputation and Sepsis-3 cohort selection.
+          - Implemented WD3QNE for ICU sepsis treatment, replicating published results across 8 experiments with 43 vs. 45 feature sets on MIMIC-III.
           - Trained agents over 100 epochs, producing structured 5×5 fluid/vasopressor policies aligned with clinician behavior.
 
 paper-presentations:
