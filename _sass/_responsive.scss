@@ -4,17 +4,21 @@
     padding: 0;
   }
 
-  .sidebar-wrapper {
-    position: static;
-    width: inherit;
-  }
-
-  .wrapper {
-    display: block;
-  }
-
   .main-wrapper {
-    padding: 30px;
+    padding: 24px 18px;
+  }
+
+  .hero-section .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .hero-section .hero-media {
+    align-items: center;
+  }
+
+  .hero-section .hero-avatar {
+    max-width: 200px;
   }
 
   .main-wrapper .time {
