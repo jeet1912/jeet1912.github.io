@@ -32,10 +32,10 @@ a {
   font-weight: 600;
   transition: color 0.2s ease, text-decoration-color 0.2s ease;
   &:hover {
-    color: darken($accent-color, 8%);
+    color: darken($header-navy, 12%);
     text-decoration: underline;
     text-underline-offset: 0.18em;
-    text-decoration-color: darken($accent-color, 8%);
+    text-decoration-color: darken($header-navy, 12%);
   }
   &:focus {
     text-decoration: none;
@@ -121,21 +121,14 @@ li {
   .fab,
   .far {
     margin-right: 8px;
-    font-size: 16px;
+    font-size: 17px;
     vertical-align: middle;
-    color: #fff;
-    background: $header-navy;
-    border-radius: 50%;
-    width: 26px;
-    height: 26px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    color: $header-navy;
   }
-    li {
-      margin-bottom: 15px;
-      &:last-child {
-        margin-bottom: 0;
+  li {
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
       }
     }
   }
@@ -292,9 +285,9 @@ li {
       color: $header-navy;
       text-decoration: none;
       &:hover {
-        color: darken($accent-color, 8%);
+        color: darken($header-navy, 12%);
         text-decoration: underline;
-        text-decoration-color: darken($accent-color, 8%);
+        text-decoration-color: darken($header-navy, 12%);
       }
     }
   }
@@ -329,11 +322,48 @@ li {
       color: $header-navy;
       text-decoration: none;
       &:hover {
-        color: darken($accent-color, 8%);
+        color: darken($header-navy, 12%);
         text-decoration: underline;
-        text-decoration-color: darken($accent-color, 8%);
+        text-decoration-color: darken($header-navy, 12%);
       }
     }
+  }
+}
+
+.hero-section {
+  margin-bottom: 64px;
+  .summary {
+    font-size: 17px;
+    line-height: 1.75;
+    max-width: 90%;
+    margin-bottom: 12px;
+  }
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.hero-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid $header-navy;
+  border-radius: 6px;
+  color: $header-navy;
+  text-decoration: none;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  &:hover {
+    color: darken($header-navy, 12%);
+    border-color: darken($header-navy, 12%);
+    background: rgba($header-navy, 0.06);
   }
 }
 

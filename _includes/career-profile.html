@@ -1,14 +1,18 @@
 {% assign career-profile = site.data.data.career-profile %}
+{% assign sidebar = site.data.data.sidebar %}
 {% if career-profile %}
-<section class="section summary-section">
-
-  <h2 class="section-title">
-    {{ career-profile.title }}
-  </h2>
+<section class="section hero-section">
 
   <div class="summary" align="justify">
     {{ career-profile.summary | markdownify }}
   </div><!--//summary-->
+
+  <ul class="hero-links">
+    {% if sidebar.email %}<li><a href="mailto:{{ sidebar.email }}"><i class="fas fa-envelope"></i></a></li>{% endif %}
+    {% if sidebar.linkedin %}<li><a href="https://www.linkedin.com/in/{{ sidebar.linkedin }}"><i class="fab fa-linkedin-in"></i></a></li>{% endif %}
+    {% if sidebar.github %}<li><a href="https://github.com/{{ sidebar.github }}"><i class="fab fa-github"></i></a></li>{% endif %}
+    {% if sidebar.pdf %}<li><a href="{{ sidebar.pdf }}"><i class="fas fa-file-alt"></i></a></li>{% endif %}
+  </ul>
     
 </section><!--//section-->
 {% endif %}

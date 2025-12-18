@@ -147,29 +147,31 @@ publications:
 research-projects:
     title: Selected Systems & Research Projects
     items:
-      - title: Distributed Ridge Regression on Healthcare Data using Hadoop MapReduce
-        link: "https://github.com/jeet1912/ms/blob/main/ds644/midTermProj/sahdev_abhijeet_midtermproj.pdf"
-        tagline: |
-          - Designed and implemented a distributed ML pipeline for healthcare cost prediction on a multi-node AWS cluster using Hadoop MapReduce, training Ridge Regression with K-fold CV via distributed sufficient-statistics aggregation.
-          - Reduced network overhead with combiners, solved regularized normal equations in reducers, and computed per-fold R² in a dedicated evaluation job (mean R² ≈ 0.786 across 5 folds).
-
       - title: Distributed GPT-2 
         link: "https://github.com/jeet1912/ms/blob/main/cs698/project/docs/project.pdf"
         tagline: |
           - Implemented a minimal GPT-2 in C++ with custom autograd, CUDA kernels, tokenizer/dataloader, and Adam optimizer to study transformer internals.
           - Extended to distributed training with MPI data parallelism, gradient allreduce, and rank-aware batching across multi-GPU nodes (67× train, 14× inference speedups vs CPU baseline).
 
-      - title: MyHealthToday Patient Engagement MVP
-        link: "https://jeet1912.github.io/assets/docs/170905316_FinalReport.pdf"
+      - title: GIT-base Ablation Study
+        link: "https://github.com/jeet1912/ms/blob/main/ds677_2/project/GITAblationStudy.pdf"
         tagline: |
-          - Built a cross-platform React/React Native MVP with AWS Lambda microservices and SAM-deployed REST APIs for senior citizen self-reporting; standardized DynamoDB records and added test suites.
-          - Reduced client provisioning time by 16% via CI/CD and shipped web/mobile front-ends for patient engagement.
+          - Engineered and preprocessed MIMIC-CXR-JPG v2.1.0 (377K+ chest X-rays, 227K reports) via GCP BigQuery and CheXpert, generating structured mini-reports and building a balanced 66K+ study dataset with robust stratified splits.
+          - Implemented and benchmarked GIT-base vision–language architecture under Full Fine-Tuning vs. LoRA (vision-only, text-only), designing a resource-optimized training strategy that reduced GPU memory usage by 50% and training time by 67%.
+          - Demonstrated 5.8× improvement in BLEU with LoRA Text-Only over full fine-tuning, validating LoRA as a parameter-eﬃcient and domain-adaptive strategy for medical vision–language tasks.
 
       - title: Sepsis Treatment with Deep Reinforcement Learning
         link: "https://github.com/jeet1912/ms/blob/main/ds669/project/FinalReportGroup1.pdf"
         tagline: |
           - Implemented WD3QNE for ICU sepsis treatment, replicating published results across 8 experiments with 43 vs. 45 feature sets on MIMIC-III.
           - Trained agents over 100 epochs, producing structured 5×5 fluid/vasopressor policies aligned with clinician behavior.
+
+      - title: Distributed Ridge Regression on Healthcare Data using Hadoop MapReduce
+        link: "https://github.com/jeet1912/ms/blob/main/ds644/midTermProj/sahdev_abhijeet_midtermproj.pdf"
+        tagline: |
+          - Designed and implemented a distributed ML pipeline for healthcare cost prediction on a multi-node AWS cluster using Hadoop MapReduce, training Ridge Regression with K-fold CV via distributed sufficient-statistics aggregation.
+          - Reduced network overhead with combiners, solved regularized normal equations in reducers, and computed per-fold R² in a dedicated evaluation job (mean R² ≈ 0.786 across 5 folds).
+
 
 paper-presentations:
     title: Paper Presentations & Reviews

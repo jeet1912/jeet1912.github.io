@@ -1,13 +1,13 @@
-/* Navy + Maroon research palette */
-$theme-color: #14233a; /* navy as primary typography */
-$header-navy: #14233a;
-$accent-color: #7a2e3a; /* muted academic maroon */
-$text-color: #2e3440; /* charcoal/blue-gray for body text */
-$text-color-secondary: #2e3440;
-$text-grey: #6b7280; /* metadata/dates */
+/* Ivory + Navy + Maroon palette */
+$theme-color: #163a5a; /* navy primary */
+$header-navy: #163a5a;
+$accent-color: #5a1f2a; /* deep maroon accent */
+$text-color: #163a5a; /* body text */
+$text-color-secondary: #163a5a;
+$text-grey: #3b1e2a; /* plum for metadata */
 $divider: #e5e7eb;
-$lighter-grey: #d1d5db;
+$lighter-grey: #d8c48e; /* muted gold if needed sparingly */
 $darker-grey: #374151;
-$smoky-white: #fafaf8; /* warm off-white surface */
-$content-bg: #fafaf8;
+$smoky-white: #f5eed3; /* ivory background */
+$content-bg: #f5eed3;
 $heart: $accent-color;
