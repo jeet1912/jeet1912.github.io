@@ -226,18 +226,18 @@ li {
   margin-bottom: 64px;
   .hero-grid {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 280px 1fr;
     gap: 30px;
-    align-items: center;
+    align-items: start;
   }
   .hero-media {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 14px;
   }
   .hero-avatar {
-    max-width: 240px;
+    max-width: 280px;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
   }
@@ -253,7 +253,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  margin-top: 16px;
+  margin-top: 0;
   padding: 0;
   list-style: none;
 }
