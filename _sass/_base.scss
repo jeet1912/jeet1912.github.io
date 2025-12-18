@@ -169,9 +169,12 @@ li {
     margin-bottom: 32px;
   }
   .upper-row {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 2px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 4px;
+    overflow: visible;
   }
   .job-title,
   .degree {
@@ -184,8 +187,10 @@ li {
   .time {
     position: relative;
     color: $text-grey;
-    line-height: 1.4;
-    padding-bottom: 2px;
+    line-height: 1.5;
+    padding-bottom: 4px;
+    margin-left: auto;
+    text-align: right;
   }
   .company,
   .university {
