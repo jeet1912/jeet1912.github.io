@@ -8,9 +8,13 @@
 {% include head.html %}
 
 <body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="home-link" href="{{ site.baseurl }}/">Home</a>
+      <a class="more-link" href="{{ site.baseurl }}/more.html">More Work</a>
+    </div>
+  </header>
   <div class="wrapper">
-    {% include sidebar.html %}
-
     <div class="main-wrapper">
         {{ content }}
     </div>
@@ -22,4 +26,3 @@
 </body>
 
 </html>
-

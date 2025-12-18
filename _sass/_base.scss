@@ -58,147 +58,39 @@ li {
 }
 
 .wrapper {
-  display: grid;
-  grid-template-columns: 7.5fr 2.5fr;
   background: $smoky-white;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   position: relative;
-  @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+  @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.08));
 }
 
-.sidebar-wrapper {
-  grid-column: 2;
-  order: 2;
-  background: $content-bg;
-  color: $header-navy;
-  border-left: 1px solid $divider;
-  @include box-shadow(-6px 0 12px rgba(0, 0, 0, 0.04));
+.site-header {
+  background: $smoky-white;
+  padding: 18px 24px;
+  border-bottom: 1px solid $divider;
+  margin-bottom: 18px;
+  .header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 18px;
+  }
   a {
     color: $header-navy;
+    font-weight: 600;
     text-decoration: none;
     &:hover {
-      color: $accent-color;
+      color: darken($header-navy, 12%);
       text-decoration: underline;
-      text-decoration-color: $accent-color;
       text-underline-offset: 0.18em;
-    }
-  }
-  .profile-container {
-    padding: 30px;
-    background: $content-bg;
-    text-align: center;
-    color: $header-navy;
-  }
-  .name {
-    font-size: 28px;
-    font-weight: 800;
-    margin-top: 0;
-    margin-bottom: 10px;
-    color: $header-navy;
-  }
-  .tagline {
-    color: $text-grey;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .profile {
-    margin-bottom: 15px;
-  }
-
-  .avatar {
-    //used for profile image
-    max-width: 86px;
-    margin-bottom: 15px;
-    border: 0px solid $divider;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
-  }
-.contact-list {
-  .fas,
-  .fab,
-  .far {
-    margin-right: 8px;
-    font-size: 17px;
-    vertical-align: middle;
-    color: $header-navy;
-  }
-  li {
-    margin-bottom: 15px;
-    &:last-child {
-      margin-bottom: 0;
-      }
-    }
-  }
-  .container-block {
-    padding: 30px;
-  }
-.container-block-title {
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 15px;
-  color: $header-navy;
-}
-  .degree {
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 5px;
-  }
-  .education-container {
-    .item {
-      margin-bottom: 15px;
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-    .meta {
-      color: $text-grey;
-      font-weight: 500;
-      margin-bottom: 0px;
-      margin-top: 0;
-    }
-    .time {
-      color: $text-grey;
-      font-weight: 500;
-      margin-bottom: 0px;
-      text-decoration: none;
-    }
-  }
-  .languages-container {
-    .lang-desc {
-      color: $text-grey;
-    }
-  }
-
-  .languages-list {
-    margin-bottom: 0;
-    li {
-      margin-bottom: 10px;
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-  }
-
-  .interests-list {
-    margin-bottom: 0;
-    li {
-      margin-bottom: 10px;
-      &:last-child {
-        margin-bottom: 0;
-      }
     }
   }
 }
 
 .main-wrapper {
-  grid-column: 1;
   background: $content-bg;
-  padding: 60px;
+  padding: 60px 50px;
   .time {
     color: $text-grey;
     font-weight: 500;
@@ -332,10 +224,27 @@ li {
 
 .hero-section {
   margin-bottom: 64px;
+  .hero-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 30px;
+    align-items: center;
+  }
+  .hero-media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .hero-avatar {
+    max-width: 240px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  }
   .summary {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.75;
-    max-width: 90%;
+    max-width: 100%;
     margin-bottom: 12px;
   }
 }

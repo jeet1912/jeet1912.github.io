@@ -27,22 +27,6 @@ sidebar:
     goodreads: 189441664-abhijeet-sahdev
     pdf: https://jeet1912.github.io/assets/docs/CV.pdf
 
-    languages:
-      - idiom: English
-        level: Native
-        
-      - idiom: Hindi
-        level: Native
-
-      - idiom: French
-        level: Elementary
-
-      - idiom: Telugu
-        level: Elementary
-
-      - idiom: Sanskrit
-        level: Elementary
-
     interests:
       - item: Meditation
         link:
@@ -82,7 +66,7 @@ research-experience:
     title: Research Experience
     positions:
       - role: Research Assistant
-        time: Sept 2025 - Ongoing
+        time: Sept 2025 - Active
         company: Xu Lab, NJIT
         details: |
           Currently working on HyperMedDiff-Risk under [Prof. Mengjia Xu](https://gracexu182.github.io).
@@ -93,7 +77,7 @@ research-experience:
             - Trained hyperbolic ICD embeddings with HDD-supervised alignment (Corr = 0.84–0.91), substantially improving hierarchical fidelity over Euclidean baselines; manuscript in preparation.
 
       - role: Research Assistant
-        time: May 2025 - Ongoing
+        time: May 2025 - Active
         company: Immersive Creation Lab, NJIT
         details: |
           Working on a web-based implementation of 3D Copilot under [Prof. Lei Zhang](https://raynez.art/bio/).
@@ -276,4 +260,3 @@ coursework-projects:
 
 #     - name: Sketch & Photoshop
 #        level: 60%
-
