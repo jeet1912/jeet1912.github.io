@@ -39,13 +39,13 @@
         </div><!--//upper-row-->
 
         <div class="university">{{ graduation.university }}</div>
+        {% if graduation.details %}
+        <div class="details">
+          {{ graduation.details | markdownify }}
+        </div>
+        {% endif %}
       </div><!--//meta-->
 
-      {% if graduation.details %}
-      <div class="details">
-        {{ graduation.details | markdownify }}
-      </div><!--//details-->
-      {% endif %}
 
     </div><!--//item-->
     {% endfor %}
