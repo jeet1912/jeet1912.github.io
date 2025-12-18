@@ -161,10 +161,10 @@ research-projects:
 paper-presentations:
     title: Paper Presentations & Reviews
     items:
-      - title: DEPlOYR 
+      - title: DEPLOYR 
         link: "https://docs.google.com/presentation/d/1PKY3zVSnE5a5KNB8qGLByKOMsZ0SnIH9/edit?usp=sharing&ouid=112379317695011195689&rtpof=true&sd=true"
         tagline: |
-          - Presentation on DEPlOYR, a framework for deploying custom real-time ML models into EMR, with focus on big-data grounding and deployment.
+          - Presentation on DEPLOYR, a framework for deploying custom real-time ML models into EMR, with focus on big-data grounding and deployment.
       
       - title: LIME
         link: "https://docs.google.com/presentation/d/1eQfSmDas-72Xghj5IUkjnDy16ubLlI3jkmByYEaNCp0/edit#slide=id.p"
