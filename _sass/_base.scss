@@ -170,6 +170,25 @@ li {
   .research-section .item {
     margin-bottom: 42px;
   }
+  .research-figure {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(260px, 1.2fr);
+    gap: 18px;
+    align-items: start;
+    margin: 20px 0;
+  }
+  .research-figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  }
+  .research-figure figcaption {
+    font-size: 13px;
+    color: $text-grey;
+    text-align: center;
+    margin-top: 6px;
+  }
   .campus-section .item,
   .volunteer-section .item {
     margin-bottom: 32px;

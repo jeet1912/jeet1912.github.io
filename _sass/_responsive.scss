@@ -21,6 +21,10 @@
     max-width: 200px;
   }
 
+  .research-figure {
+    grid-template-columns: 1fr;
+  }
+
   .main-wrapper .time {
     position: static;
     display: block;
