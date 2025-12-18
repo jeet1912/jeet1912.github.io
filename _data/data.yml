@@ -149,6 +149,21 @@ experiences:
         
           [[Demo]](https://drive.google.com/drive/u/0/folders/1-sTJRTzDhOe6hhWDwRLPQeIVHUUeyMkh) [[Code Repo]](https://github.com/KevMamba/Dystopia-Animal-Adoption-App)
 
+volunteer:
+    - role: Technical Volunteer
+      time: May 2021 - Present 
+      company: Lend-A-Hand-India
+      details: |
+        - Worked on Project Lighthouse, a learning management system across 150+ schools. 
+    
+    - role: Social Media Head 
+      time: July 2020 - May 2021
+      company: Project Mudra, MAHE
+      details: |
+        - Responsible for overseeing content and networking with other student clubs.
+
+        
+
 
 publications:
     title: Pre-Print & manuscript
@@ -249,7 +264,7 @@ projects:
       - title: Compound Artificial Intelligence Systems
         link: "https://github.com/jeet1912/ms/blob/main/ds677/research/abhijeet_sahdev_finalTermResearch.pdf"
         tagline: |
-          Created a short research report on the state of the art compound artificial systems such as Haystack while also highlighing systems that can help monitor carbon emissions. 
+          - Created a short research report on the state of the art compound artificial systems such as Haystack while also highlighing systems that can help monitor carbon emissions. 
           
             [[Report]](https://github.com/jeet1912/ms/blob/main/ds677/research/abhijeet_sahdev_finalTermResearch.pdf)
          
