@@ -261,7 +261,7 @@ li {
     gap: 30px;
     align-items: start;
   }
-.hero-media {
+  .hero-media {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -278,16 +278,15 @@ li {
     max-width: 100%;
     margin-bottom: 12px;
   }
-}
-
-.hero-links {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(44px, 1fr));
-  gap: 12px;
-  margin-top: 0;
-  padding: 0;
-  list-style: none;
-  width: min(280px, 100%);
+  .hero-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(44px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+    width: min(320px, 100%);
+  }
 }
 
 .hero-links a {

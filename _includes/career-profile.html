@@ -7,6 +7,11 @@
       {% if sidebar.avatar %}
       <img class="hero-avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
       {% endif %}
+    </div>
+    <div class="hero-copy">
+      <div class="summary" align="justify">
+        {{ career-profile.summary | markdownify }}
+      </div><!--//summary-->
       <ul class="hero-links">
         {% if sidebar.email %}<li><a href="mailto:{{ sidebar.email }}"><i class="fas fa-envelope"></i></a></li>{% endif %}
         {% if sidebar.linkedin %}<li><a href="https://www.linkedin.com/in/{{ sidebar.linkedin }}"><i class="fab fa-linkedin-in"></i></a></li>{% endif %}
@@ -14,11 +19,6 @@
         {% if sidebar.goodreads %}<li><a href="https://www.goodreads.com/user/show/{{ sidebar.goodreads }}"><i class="fab fa-goodreads-g"></i></a></li>{% endif %}
         {% if sidebar.pdf %}<li><a href="{{ sidebar.pdf }}"><i class="fas fa-file-alt"></i></a></li>{% endif %}
       </ul>
-    </div>
-    <div class="hero-copy">
-      <div class="summary" align="justify">
-        {{ career-profile.summary | markdownify }}
-      </div><!--//summary-->
     </div>
   </div>
 </section><!--//section-->

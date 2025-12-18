@@ -197,7 +197,7 @@ coursework-projects:
         link: "https://jeet1912.github.io/assets/docs/170905316_FinalReport.pdf"
         tagline: |
           - Built a cross-platform React/React Native MVP with AWS Lambda microservices and SAM-deployed REST APIs for senior citizen self-reporting.
-          - Standardized DynamoDB records, added test suites, and reduced client provisioning time by 16% via CI/CD.
+          - Standardized DynamoDB records, added test suites, and reduced client provisioning time by 16% through automated CI/CD pipelines.
 
       - title: Dystopia Pet Adoption App
         link: "https://github.com/KevMamba/Dystopia-Animal-Adoption-App"
