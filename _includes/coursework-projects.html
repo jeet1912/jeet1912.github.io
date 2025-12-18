@@ -8,14 +8,26 @@
 
   {% for project in coursework.items %}
     <div class="item">
-
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
+      <div class="project-row">
+        <span class="project-title">
+          {% if project.link %}
+          <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+          {% else %}
+          {{ project.title }}
+          {% endif %}
+        </span>
+        <span class="project-links">
+          {% if project.links %}
+            {% for l in project.links %}
+              {% if l.type == "github" %}<a href="{{ l.url }}" target="_blank"><i class="fab fa-github"></i> Code</a>{% endif %}
+              {% if l.type == "pdf" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-file-pdf"></i> Report</a>{% endif %}
+              {% if l.type == "ppt" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-file-powerpoint"></i> Slides</a>{% endif %}
+              {% if l.type == "notebook" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-book-open"></i> Notebook</a>{% endif %}
+              {% if l.type == "pr" %}<a href="{{ l.url }}" target="_blank"><i class="fas fa-code-branch"></i> PR</a>{% endif %}
+            {% endfor %}
+          {% endif %}
+        </span>
+      </div>
 
       {% if project.tagline %}
       <div class="project-tagline" align="justify">{{ project.tagline | markdownify }}</div>

@@ -117,8 +117,7 @@ volunteer:
 
 publications:
     title: Publications & Manuscripts
-    tagline: |
-      Research outputs with code and preprints.
+    tagline: 
     papers:
       - title: "HyperMedDiff-Risk: Hyperbolic Graph Diffusion for Clinical Risk Prediction"
         link: "https://github.com/jeet1912/hyperbolic-ehr-diffusion/blob/main/reports/DS_683.pdf"
