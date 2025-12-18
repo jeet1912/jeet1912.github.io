@@ -4,7 +4,7 @@ title: Research
 ---
 
 <section class="section research-statement">
-  <h2 class="section-title">Research Statement</h2>
+  <h2 class="section-title">Research Statement <a class="pdf-link" href="{{ site.baseurl }}/assets/docs/Research_Statement.pdf"><i class="fas fa-download"></i></a></h2>
   <div class="details" align="justify">
     <p>Clinical data are inherently hierarchical and relational, yet most machine learning models embed electronic health records in Euclidean latent spaces that erase this structure. In generative settings, this misalignment causes transport dynamics to collapse hierarchy, degrading interpretability and robustness. My research studies how latent geometry and transport constraints can be explicitly modeled to preserve clinical structure while maintaining predictive accuracy.</p>
     <p>A central premise of my work is that model behavior is governed as much by transport dynamics as by architecture or capacity. While prior work has explored geometry-aware representations, transport is often treated implicitly—optimized for likelihood or reconstruction accuracy without regard for how trajectories reshape latent manifolds. I instead treat transport as a first-class modeling object, asking when transport parameterization—rather than model expressivity—determines hierarchical fidelity. In earlier experiments with hyperbolic embeddings and rectified-flow transport, I observed that geometry-aware choices can improve predictive performance while producing unstable or hyperparameter-sensitive structural behavior. These observations motivated my core research question: when can hierarchy preservation and predictive accuracy coexist intrinsically, and when is structure maintained only through external constraints rather than the transport dynamics themselves?</p>
@@ -23,7 +23,3 @@ title: Research
     <p>While my current focus is EHR-based risk prediction, these questions naturally generalize to multimodal biomedical data, including imaging, genomics, and ontology-grounded foundation models. My long-term objective is to develop transport-aware geometric learning frameworks that bridge theory and deployment in biomedical AI, enabling models whose theoretical behavior and empirical performance are jointly characterized. Through this work, I aim to contribute foundational insights into geometry-aware generative modeling while advancing systems that translate reliably to real clinical impact.</p>
   </div>
 </section>
-
-{% include research-experience.html %}
-{% include publications.html %}
-{% include research-projects.html %}

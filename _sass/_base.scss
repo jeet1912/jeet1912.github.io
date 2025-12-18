@@ -172,22 +172,31 @@ li {
   }
   .research-figure {
     display: grid;
-    grid-template-columns: minmax(0, 2fr) minmax(260px, 1.2fr);
-    gap: 18px;
+    grid-template-columns: minmax(0, 2fr) minmax(220px, 1.1fr);
+    gap: 14px;
     align-items: start;
-    margin: 20px 0;
+    margin: 24px 0 12px 0;
   }
   .research-figure img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   }
   .research-figure figcaption {
     font-size: 13px;
     color: $text-grey;
     text-align: center;
     margin-top: 6px;
+  }
+  .pdf-link {
+    font-size: 14px;
+    margin-left: 8px;
+    color: $header-navy;
+    &:hover {
+      color: darken($header-navy, 12%);
+      text-decoration: none;
+    }
   }
   .campus-section .item,
   .volunteer-section .item {
