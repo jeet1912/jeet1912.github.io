@@ -5,6 +5,11 @@
   <h2 class="section-title">
     {{ publications.title }}
   </h2>
+  {% if publications.tagline %}
+  <div class="intro">
+    {{ publications.tagline | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
 
   {% if publications.intro %}
   <div class="intro">
