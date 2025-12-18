@@ -287,6 +287,9 @@ li {
     list-style: none;
     width: min(320px, 100%);
   }
+  .hero-links-left {
+    justify-items: start;
+  }
 }
 
 .hero-links a {
