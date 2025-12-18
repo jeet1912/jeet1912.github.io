@@ -28,6 +28,11 @@
     {% if publication.conference %}
     <div class="publication-conference">{{ publication.conference }}</div>
     {% endif %}
+    {% if publication.tagline %}
+    <div class="publication-tagline">
+      {{ publication.tagline | markdownify }}
+    </div>
+    {% endif %}
   </div><!--//item-->
   {% endfor %}
 
