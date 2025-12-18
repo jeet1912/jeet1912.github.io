@@ -1,0 +1,13 @@
+/* Navy + Maroon research palette */
+$theme-color: #0f1c2e; /* deep navy backbone */
+$header-navy: #14233a; /* optional slightly lighter navy for headers */
+$accent-color: #7a2e3a; /* muted academic maroon */
+$text-color: #2e3440; /* charcoal/blue-gray for body text */
+$text-color-secondary: #2e3440;
+$text-grey: #6b7280; /* metadata/dates */
+$divider: lighten($accent-color, 35%);
+$lighter-grey: #d1d5db;
+$darker-grey: #374151;
+$smoky-white: #fafaf8; /* warm off-white surface */
+$content-bg: #fafaf8;
+$heart: $accent-color;

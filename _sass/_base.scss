@@ -1,7 +1,10 @@
 /* ======= Base ======= */
+$accent-color: $theme-color !default;
+$header-navy: $theme-color !default;
+$content-bg: $smoky-white !default;
 body {
   font-family: "Roboto", sans-serif;
-  color: $text-color-secondary;
+  color: $text-color;
   background: $smoky-white;
   font-size: 14px;
   padding: 30px;
@@ -19,10 +22,10 @@ h6 {
 }
 
 a {
-  color: darken($theme-color, 15%);
+  color: $theme-color;
   &:hover {
     text-decoration: underline;
-    color: darken($theme-color, 30%);
+    color: $accent-color;
   }
   &:focus {
     text-decoration: none;
@@ -36,7 +39,7 @@ p {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  background: $theme-color;
+  background: $smoky-white;
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
@@ -50,6 +53,9 @@ p {
   color: #fff;
   a {
     color: #fff;
+    &:hover {
+      color: $accent-color;
+    }
   }
   .profile-container {
     padding: 30px;
@@ -90,6 +96,7 @@ p {
       margin-right: 5px;
       font-size: 18px;
       vertical-align: middle;
+      color: $accent-color;
     }
     li {
       margin-bottom: 15px;
@@ -161,16 +168,25 @@ p {
 
 .main-wrapper {
   grid-column: span 7;
-  background: #fff;
+  background: $content-bg;
   padding: 60px;
   .section-title {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: darken($theme-color, 15%);
+    color: $header-navy;
     position: relative;
+    display: inline-block;
+    padding-bottom: 6px;
+    border-bottom: 1px solid $accent-color;
     margin-top: 0;
     margin-bottom: 20px;
+    .fa-stack-2x {
+      color: $theme-color;
+    }
+    .fa-stack-1x {
+      color: $accent-color;
+    }
   }
   .section {
     margin-bottom: 60px;
