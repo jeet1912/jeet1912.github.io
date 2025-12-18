@@ -42,7 +42,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Graduate student in <b>Artificial Intelligence</b> at <b>New Jersey Institute of Technology</b>. I work on <b>geometric and generative models for structured clinical data</b>, focusing on hyperbolic diffusion/flow models and graph encoders for EHR and ontology-grounded risk prediction. I build end-to-end systems (CUDA/MPI) and validate them on MIMIC-scale datasets, aiming for methods that are both <b>mathematically grounded</b> and <b>clinically meaningful</b>. My goal is to ship research-grade models that preserve clinical hierarchy, remain interpretable, and scale reliably.
+      Hi, I’m Abhijeet Sahdev, a graduate student in Artificial Intelligence at New Jersey Institute of Technology. I work on geometric and generative machine learning for structured clinical data, with a focus on hyperbolic diffusion and flow-based models and graph encoders for EHR-based risk prediction. My research studies how latent geometry influences hierarchy preservation, interpretability, and robustness in clinical models. I design methods end-to-end, pairing theoretically grounded geometry-aware modeling with large-scale empirical validation on MIMIC-scale datasets. My goal is to build research-grade models that are mathematically principled, clinically meaningful, and reliable at scale.
       
 education:
     - degree: M.S in Artificial Intelligence 
