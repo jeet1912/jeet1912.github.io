@@ -32,10 +32,14 @@
     position: static;
     display: block;
     margin-top: 5px;
+    margin-left: 0;
+    text-align: left;
   }
 
   .main-wrapper .upper-row {
-    margin-bottom: 0;
+    margin-bottom: 4px;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 /* Small devices (tablets, 768px and up) */
