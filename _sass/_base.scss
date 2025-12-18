@@ -135,6 +135,18 @@ li {
       margin-bottom: 36px;
     }
   }
+  .educations-section .upper-row {
+    align-items: flex-start;
+  }
+  .educations-section .time {
+    position: static;
+    display: block;
+    margin-top: 4px;
+  }
+  .educations-section .inline-details {
+    text-align: right;
+    margin-top: 4px;
+  }
   .research-section .item {
     margin-bottom: 42px;
   }
@@ -242,28 +254,29 @@ li {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
   }
   .summary {
-    font-size: 18px;
-    line-height: 1.75;
+    font-size: 16px;
+    line-height: 1.65;
     max-width: 100%;
     margin-bottom: 12px;
   }
 }
 
 .hero-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(44px, 1fr));
+  gap: 12px;
   margin-top: 0;
   padding: 0;
   list-style: none;
+  width: 100%;
 }
 
 .hero-links a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   border: 1px solid $header-navy;
   border-radius: 6px;
   color: $header-navy;
