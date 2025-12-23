@@ -66,9 +66,9 @@ li {
 }
 
 .site-header {
-  background: $header-navy;
+  background: $smoky-white;
   padding: 18px 24px;
-  border-bottom: none;
+  border-bottom: 1px solid $divider;
   margin-bottom: 18px;
   .header-inner {
     max-width: 1100px;
@@ -77,12 +77,11 @@ li {
     gap: 18px;
   }
   a {
-    color: $smoky-white;
+    color: $header-navy;
     font-weight: 600;
     text-decoration: none;
-    letter-spacing: 0.01em;
     &:hover {
-      color: lighten($smoky-white, 4%);
+      color: darken($header-navy, 12%);
       text-decoration: underline;
       text-underline-offset: 0.18em;
     }
